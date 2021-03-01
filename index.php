@@ -9,17 +9,12 @@
 
 <body>
 	<div class="title">
-<<<<<<< HEAD
-		<h1>Immotrott by  <a href="#oui">Muriel Framery</a> </h1>
-		
-=======
-		<h1>Immotrott by Muriel Framery</h1>
+		<h1>Immotrott by <a href="#oui">Muriel Framery</a></h1>
 
 	</div>
 
 	<div class="img_defil">
 		<div class="container"></div>
->>>>>>> 698862b07d3dd5beb1feb04834939d6853cd1c6a
 	</div>
 
 	<div class="cont_lien">
