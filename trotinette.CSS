@@ -1,0 +1,28 @@
+.debut{
+    display : flex;
+    height: 100%;
+    justify-content: flex-end;
+    /*transition: all ease 5s;
+    left: 0;
+	transition: left 1s, transform 1s;
+	white-space: nowrap;*/
+}
+
+.txt{
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    transition: all ease 5s;
+    max-width: 0%;
+    min-width: 0%;
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.anim_trot:hover .txt
+{
+    max-width: 93%;
+    min-width: 93%;
+    justify-content: left;
+}
+
