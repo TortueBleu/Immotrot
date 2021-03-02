@@ -1,3 +1,8 @@
+body,html{
+	scroll-behavior: smooth;
+	margin: 0%;
+}
+
 .img_defil
 {
 	background-color: grey;
@@ -34,10 +39,14 @@
 
 .presentation
 {
+	display: flex;
 	margin-top: 100px;
-	background-color: grey;
+	background-color: #4457A3;
 	width: 100%;
 	height: 500px;
+	/*flex-direction: column;*/
+	justify-content: space-between;
+	box-shadow: 0px 15px 10px -5px #777;
 }
 
 footer
@@ -53,6 +62,7 @@ footer
 	justify-content: center;
 }
 
+<<<<<<< HEAD
 #ags
 {
 	background-image: url('img/agsImmo.png');
@@ -166,3 +176,28 @@ a
 }
 
 
+=======
+.img_defil{
+    width: 100%;
+    height: 450px;
+    margin: 10px 0;
+    box-shadow: 0px 15px 10px -5px #777;
+    background-color: #EDEDED;
+    background-size: cover;
+    animation: fondu 15s ease-in-out infinite both;
+}
+.container{
+    max-width: max-content;
+    /*margin: 50px auto;*/
+	background-size: 100%;
+}
+.img_defil:hover{
+    animation-play-state: paused;
+}
+@keyframes fondu{
+    0%{background-image: url('img/img1.jpg')  ;}
+    33.33%{background-image: url('img/img2.jpg');}
+    66.67%{background-image: url('img/img3.jpg');}
+    100%{background-image: url('img/img4.jpg');}
+}
+>>>>>>> ebf46e5e72b75c0575a67eeae82285862011d5bc
