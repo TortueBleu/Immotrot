@@ -22,10 +22,8 @@
 	</div>
 
 	
-	<div class="img_defil"></div>
-	<div>
-		<div class="popup">test</div>
-	</div>
+	<div class="popup">test</div>
+
 	
 
 
