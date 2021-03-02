@@ -79,7 +79,7 @@
 		<div class="debut">
 			<img src="./img/trotinette.png" ></img>	
 			<div class="txt">
-				je me deplace a trotinette oui
+				Je me deplace a trotinette oui
 		</div>
 
 		</div>
