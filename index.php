@@ -27,7 +27,6 @@
 	
 
 	
-	<div class="img_defil"></div>
 	
 	<div class="cont_popup">
 
