@@ -9,6 +9,9 @@
 
 	<link rel="stylesheet" type="text/css" href="prez.css">
 
+
+	<link rel="stylesheet" type="text/css" href="axel.css">
+
 </head>
 
 <body>
@@ -17,6 +20,7 @@
 
 	</div>
 
+<<<<<<< Updated upstream
 	<div class="img_defil">
 		<div class="container"></div>
 		<h3>Acheter un bien Immobillier avec <br>
@@ -25,10 +29,13 @@
 
 
 	
+=======
+>>>>>>> Stashed changes
 
-	
+
+
 	<div class="img_defil"></div>
-	
+
 	<div class="cont_popup">
 
 		<div class="popup">
@@ -39,16 +46,16 @@
 				<li>salut</li>
 				<li>salut</li>
 			</ul>
-			
+
 		</div>
 	</div>
-	
+
 
 
 
 	<div class="cont_lien">
 		<div class="lien" id="service">
-			
+
 			<div class="anim2">
 				<ul>Services:
 					<li>Vente</li>
@@ -58,21 +65,25 @@
 				</ul>
 			</div>
 		</div>
-		
-		<a href="https://ags-immobilier.com/"> 
+
+		<a href="https://ags-immobilier.com/">
 			<div class="lien" id="ags">
-				<div class="anim"><p>Cliquer ici</p></div>
+				<div class="anim">
+					<p>Cliquer ici</p>
+				</div>
 			</div>
 		</a>
-		
-		
-			<div class="lien" id="bien_off">
-				<div class="anim3"><p>Vente a discrétion</p></div>
+
+
+		<div class="lien" id="bien_off">
+			<div class="anim3">
+				<p>Vente a discrétion</p>
 			</div>
-	
-		
+		</div>
+
+
 	</div>
-		
+
 
 	<div class="anim_trot">
 
@@ -88,31 +99,52 @@
 	</div>
 
 	<div class="presentation" id="oui">
-	<div class="img">
-				<img src="./img/muriel.png" width="350px">
-			</div>
+		<div class="img">
+			<img src="./img/muriel.png" width="350px">
+		</div>
 		<div class="text1">
 			<h2>A propos de moi : </h2>
-			<z>Muriel Framery <br/></z>
+			<z>Muriel Framery <br /></z>
 			<p></br>Consultant immobilier bienveillant</br>
-			<br/>Dans l'île saint louis, entre le marais et le quartier latin, depuis bientôt 7 ans après les Antilles et l'Irlande<br/>
-			<br/>Le goût des autres & le sens du service depuis toujours<br/>
-			<br/>Dans l'immobilier parisien, d'abord agent et à mon compte désormais<br/></p>
+				<br />Dans l'île saint louis, entre le marais et le quartier latin, depuis bientôt 7 ans après les Antilles et l'Irlande<br />
+				<br />Le goût des autres & le sens du service depuis toujours<br />
+				<br />Dans l'immobilier parisien, d'abord agent et à mon compte désormais<br />
+			</p>
 		</div>
-			
+
 		<div class="text2">
-			<p><h2>A propos de l'entreprise: </h2>
-			<br/>Mes Experiences SANS préferences:<br/>
-			<br/>Transaction vente<br/>
-			<br/>Transaction location<br/>
-			<br/>Chasse immobilière location & vente<br/></p>
-			
+			<p>
+			<h2>A propos de l'entreprise: </h2>
+			<br />Mes Experiences SANS préferences:<br />
+			<br />Transaction vente<br />
+			<br />Transaction location<br />
+			<br />Chasse immobilière location & vente<br /></p>
+
 		</div>
 
 	</div>
 
 </body>
-<footer>footer</footer>
+<footer>
+	<div class="container_footer">
+		<div>
+			<h2>À Propos</h2>
+			<p>Dans l'île saint louis, entre le marais et le quartier latin, depuis bientôt 7 ans après les Antilles et l'Irlande. Le goût des autres & le sens du service depuis toujours. Dans l'immobilier parisien, d'abord agent et à mon compte désormais</p>
+		</div>
+		<div>
+			<h2>Contact</h2>
+			<ul>
+				<li>1</li>
+			</ul>
+		</div>
+		<div>
+			<h2>Suivez-nous</h2>
+			<ul>
+				<li>1</li>
+			</ul>
+		</div>
+	</div>
+</footer>
 
 <script type="text/javascript" src="script.js"></script>
 
