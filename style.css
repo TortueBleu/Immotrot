@@ -62,14 +62,14 @@ footer
 	justify-content: center;
 }
 
-<<<<<<< HEAD
+/*<<<<<<< HEAD*/
 #ags
 {
 	background-image: url('img/agsImmo.png');
 	background-size: 200px;
 	box-shadow: 10px 10px 400px -29px rgba(0,0,0,0.75);
--webkit-box-shadow: 10px 10px 400px -29px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 400px -29px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 400px -29px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 400px -29px rgba(0,0,0,0.75);
 
 }
 
@@ -110,8 +110,8 @@ a
 	background-size: 100% 100%;
 	background-image: url('img/paris.jpg');
 	box-shadow: 10px 10px 400px -29px rgba(0,0,0,0.75);
--webkit-box-shadow: 10px 10px 400px -29px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 400px -29px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 400px -29px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 400px -29px rgba(0,0,0,0.75);
 }
 
 .anim2
@@ -137,8 +137,8 @@ a
 	background-image: url('img/paris2.jpg');
 	background-size: 100% 100%;
 	box-shadow: 10px 10px 400px -29px rgba(0,0,0,0.75);
--webkit-box-shadow: 10px 10px 400px -29px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 400px -29px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 400px -29px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 400px -29px rgba(0,0,0,0.75);
 	display: flex;
 }
 
@@ -175,8 +175,6 @@ a
 	background-color: blue;
 }
 
-
-=======
 .img_defil{
     width: 100%;
     height: 450px;
@@ -200,4 +198,4 @@ a
     66.67%{background-image: url('img/img3.jpg');}
     100%{background-image: url('img/img4.jpg');}
 }
->>>>>>> ebf46e5e72b75c0575a67eeae82285862011d5bc
+
