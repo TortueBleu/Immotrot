@@ -19,11 +19,29 @@
 
 	<div class="img_defil">
 		<div class="container"></div>
+		<h3>Acheter un bien Immobillier avec <br>
+		Bienveillance et Sérénité </h3>
 	</div>
 
-	
-	<div class="popup">test</div>
 
+	
+
+	
+	<div class="img_defil"></div>
+	
+	<div class="cont_popup">
+
+		<div class="popup">
+			<ul>Bien Off:
+				<li>salut</li>
+				<li>salut</li>
+				<li>salut</li>
+				<li>salut</li>
+				<li>salut</li>
+			</ul>
+			
+		</div>
+	</div>
 	
 
 
@@ -49,7 +67,7 @@
 		
 		
 			<div class="lien" id="bien_off">
-				<div class="anim3"><p>Bien off</p></div>
+				<div class="anim3"><p>Vente a discrétion</p></div>
 			</div>
 	
 		
@@ -79,15 +97,15 @@
 			<p></br>Consultant immobilier bienveillant</br>
 			<br/>Dans l'île saint louis, entre le marais et le quartier latin, depuis bientôt 7 ans après les Antilles et l'Irlande<br/>
 			<br/>Le goût des autres & le sens du service depuis toujours<br/>
-			<br/>Dans l'immobilier parisien, d'abord agent et à mon compte désormais	<br/></p>
+			<br/>Dans l'immobilier parisien, d'abord agent et à mon compte désormais<br/></p>
 		</div>
 			
 		<div class="text2">
 			<p><h2>A propos de l'entreprise: </h2>
 			<br/>Mes Experiences SANS préferences:<br/>
-			<br/>	Transaction vente<br/>
-			<br/>	Transaction location<br/>
-			<br/>	Chasse immobilière location & vente<br/></p>
+			<br/>Transaction vente<br/>
+			<br/>Transaction location<br/>
+			<br/>Chasse immobilière location & vente<br/></p>
 			
 		</div>
 

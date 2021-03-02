@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
 body,html{
 	scroll-behavior: smooth;
 	margin: 0%;
@@ -14,8 +15,8 @@ body,html{
 {
 	margin-top: 100px;
 	background-color: grey;
-	width: 200px;
-	height: 200px;
+	width: 260px;
+	height: 260px;
 	display: flex;
 	align-items: flex-end;
 	text-decoration: none;
@@ -51,7 +52,7 @@ body,html{
 
 footer
 {
-	margin-top: 100px;
+	
 	width: 100%;
 	background-color: cyan;
 	height: 200px;
@@ -66,7 +67,7 @@ footer
 #ags
 {
 	background-image: url('img/agsImmo.png');
-	background-size: 200px;
+	background-size: 260px;
 	box-shadow: 10px 10px 400px -29px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 10px 400px -29px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 400px -29px rgba(0,0,0,0.75);
@@ -163,6 +164,7 @@ a
 	max-height: 100%;
 }
 
+/*<<<<<<< HEAD*/
 .popup
 {
 	border-radius: 10px;
@@ -174,20 +176,30 @@ a
 	height: 300px;
 	background-color: blue;
 }
+h3{
+	font-size: 50px;
+	color: white;
+	padding-left: 50px;
+	padding-top: 180px;
+	font-family: 'Patua One', cursive;
+	letter-spacing: 2px;
+	text-shadow: 1px 1px 2px blue, 0 0 1em blue, 0 0 0.2em blue;
+}
 
 .img_defil{
     width: 100%;
     height: 450px;
     margin: 10px 0;
-    box-shadow: 0px 15px 10px -5px #777;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     background-color: #EDEDED;
     background-size: cover;
     animation: fondu 15s ease-in-out infinite both;
+
 }
 .container{
     max-width: max-content;
     /*margin: 50px auto;*/
-	background-size: 100%;
+	background-size: 100% 100%;
 }
 .img_defil:hover{
     animation-play-state: paused;
@@ -197,5 +209,31 @@ a
     33.33%{background-image: url('img/img2.jpg');}
     66.67%{background-image: url('img/img3.jpg');}
     100%{background-image: url('img/img4.jpg');}
+}
+
+
+.cont_popup
+{
+	width: 100%;
+	height: 1px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
+
+
+
+.popup
+{
+	border-radius: 10px;
+	display: none;
+	width: 80%;
+
+	background-color: grey;
+	position: absolute;
+	height: 300px;
+	background-color: blue;
 }
 
