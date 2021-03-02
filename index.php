@@ -5,7 +5,7 @@
 	<title>Immotrott</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 
-
+	<link rel="stylesheet" type="text/css" href="trotinette.css">
 
 	<link rel="stylesheet" type="text/css" href="prez.css">
 
@@ -56,7 +56,18 @@
 	</div>
 		
 
-	<div class="anim_trot"></div>
+	<div class="anim_trot">
+
+		<div class="debut">
+			<img src="./img/trotinette.png" ></img>	
+			<div class="txt">
+				je me deplace a trotinette oui
+		</div>
+
+		</div>
+		
+
+	</div>
 
 	<div class="presentation" id="oui">
 	<div class="img">
