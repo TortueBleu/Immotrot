@@ -11,11 +11,18 @@
 
 </head>
 
-<body>
+<header>
+	<a href="https://www.linkedin.com/in/murielframery2629/"><img src="img/linkedin.png"></a>
 	<div class="title">
+
 		<h1>Immotrott by <a href="#oui">Muriel Framery</a></h1>
 
 	</div>
+	
+</header>
+
+<body>
+	
 
 	<div class="img_defil">
 		<div class="container"></div>
