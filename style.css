@@ -53,7 +53,9 @@ body,html{
 .anim_trot
 {
 	margin-top: 100px;
-	background-color: grey;
+	border-top: 0.2px solid rgba(0, 0, 0, .3);;
+	border-bottom: 0.2px solid rgba(0, 0, 0, .3);;
+	padding: 15px 15px;
 	width: 100%;
 	height: 100px;
 }
@@ -62,7 +64,7 @@ body,html{
 {
 	display: flex;
 	margin-top: 100px;
-	background-color: #4457A3;
+	border: solid 1px;
 	width: 100%;
 	height: 500px;
 	
@@ -266,5 +268,6 @@ li
 	align-self: center;
 	margin-left: 10px;
 }
+
 
 

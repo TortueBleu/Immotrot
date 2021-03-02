@@ -15,7 +15,7 @@
 	<a href="https://www.linkedin.com/in/murielframery2629/"><img src="img/linkedin.png"></a>
 	<div class="title">
 
-		<h1>Immotrott by <a href="#oui">Muriel Framery</a></h1>
+		<h1>Immotrott by <a href="#oui"><strong>Muriel Framery</strong> </a></h1>
 
 	</div>
 	
@@ -89,7 +89,7 @@
 	<div class="anim_trot">
 
 		<div class="debut">
-			<img src="img/trotinette.png" ></img>	
+			<img src="img/trotinette.png" style="width: 97px;"></img>	
 			<div class="txt">
 				Je me deplace a trotinette oui
 		</div>
