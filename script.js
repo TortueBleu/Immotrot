@@ -4,5 +4,7 @@ divOff.onclick = test
 
 
 function test(){
-	popup.style.display = 'block';
+	popup.style.display = 'block;';
+	console.log('oe')
+
 }
