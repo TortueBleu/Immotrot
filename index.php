@@ -34,7 +34,7 @@
 	
 
 	
-	
+
 	
 	<div class="cont_popup">
 
@@ -89,7 +89,7 @@
 	<div class="anim_trot">
 
 		<div class="debut">
-			<img src="./img/trotinette.png" ></img>	
+			<img src="img/trotinette.png" ></img>	
 			<div class="txt">
 				Je me deplace a trotinette oui
 		</div>
