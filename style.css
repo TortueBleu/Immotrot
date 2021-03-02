@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
 body,html{
 	scroll-behavior: smooth;
 	margin: 0%;
@@ -174,20 +175,29 @@ a
 	height: 300px;
 	background-color: blue;
 }
-
+h3{
+	font-size: 50px;
+	color: white;
+	padding-left: 50px;
+	padding-top: 180px;
+	font-family: 'Patua One', cursive;
+	letter-spacing: 2px;
+	text-shadow: 1px 1px 2px blue, 0 0 1em blue, 0 0 0.2em blue;
+}
 .img_defil{
     width: 100%;
     height: 450px;
     margin: 10px 0;
-    box-shadow: 0px 15px 10px -5px #777;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     background-color: #EDEDED;
     background-size: cover;
     animation: fondu 15s ease-in-out infinite both;
+
 }
 .container{
     max-width: max-content;
     /*margin: 50px auto;*/
-	background-size: 100%;
+	background-size: 100% 100%;
 }
 .img_defil:hover{
     animation-play-state: paused;
