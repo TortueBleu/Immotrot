@@ -22,7 +22,7 @@
 
 	<header class="header">
 		<div>
-			<p>Muriel FRAMERY</p>
+			<p><a href="#oui">Muriel FRAMERY</a></p>
 		</div>
 		<div>
 			<a href="https://www.linkedin.com/in/murielframery2629/"><i class="fa fa-linkedin header-linkedin"></i></a>
