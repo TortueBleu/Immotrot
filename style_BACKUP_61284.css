@@ -322,7 +322,7 @@ h3 {
  	border-right : 10px solid transparent;
  	border-bottom : 20px solid black;
  	border-left : 10px solid transparent;
-}
+=======
 
 .cont_popup {
 	width          : 100%;
@@ -332,12 +332,12 @@ h3 {
 	align-items    : center;
 
 
-
+>>>>>>> c3260d5b2a7354bf16b23dc9f8dde9bca48f9174
 }
 
 
 
-
+<<<<<<< HEAD
 .popup
 {
 	border-radius: 10px;
@@ -354,6 +354,17 @@ h3 {
 .popup a
 {
 	text-decoration: underline;
+=======
+.popup {
+	border-radius   : 10px;
+	display         : none;
+	width           : 50%;
+	background-color: grey;
+	position        : absolute;
+	height          : 350px;
+	background-color: #F9F9F9;
+	border          : solid;
+>>>>>>> c3260d5b2a7354bf16b23dc9f8dde9bca48f9174
 }
 
 .flex_pop {
