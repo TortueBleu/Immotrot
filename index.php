@@ -16,24 +16,37 @@
 
 </head>
 
-<header>
-	<a href="https://www.linkedin.com/in/murielframery2629/"><img src="img/linkedin.png"></a>
-	<div class="title">
-
-		<h1>Immotrott by <a href="#oui"><strong>Muriel Framery</strong> </a></h1>
-
-	</div>
-
-</header>
-
-
-<nav>
-	<a href="">Liens</a>
-	<a href="">Les trotinettes</a>
-	<a href="">Contact</a>
-</nav>
-
 <body>
+
+	<header class="header">
+		<div>
+			<p><i class="fa fa-envelope mail_header" style="margin-right:10px"></i>contact@murielframery.fr</p>
+		</div>
+		<div>
+			<a href="https://www.linkedin.com/in/murielframery2629/"><i class="fa fa-linkedin header-linkedin"></i></a>
+		</div>
+	</header>
+
+
+	<nav class="navbar">
+		<ul class="content-navbar-left">
+			<li>
+				<p>LOGO</p>
+			</li>
+		</ul>
+		<ul class="content-navbar-right">
+			<li>
+				<a href="">Mes services</a>
+			</li>
+			<li>
+				<a href="">Mode de déplacement</a>
+			</li>
+			<li>
+				<a href="">Contactez-moi</a>
+			</li>
+		</ul>
+	</nav>
+
 
 
 	<div class="img_defil">
@@ -43,29 +56,29 @@
 	</div>
 
 
-	
 
-	
 
-	
 
-		<div class="popup">
-			<ul>Bien Off:
-				<li>salut</li>
-				<li>salut</li>
-				<li>salut</li>
-				<li>salut</li>
-				<li>salut</li>
-			</ul>
-			<div>
-				
-			</div>
-			<a href="">Cliquez ici pour quitter la fenetre</a>
+
+
+
+	<div class="popup">
+		<ul>Bien Off:
+			<li>salut</li>
+			<li>salut</li>
+			<li>salut</li>
+			<li>salut</li>
+			<li>salut</li>
+		</ul>
+		<div>
+
+		</div>
+		<a href="">Cliquez ici pour quitter la fenetre</a>
 	</div>
 
-	
 
-	
+
+
 	<div class="cont_popup">
 		<div class="popup">
 			<div class="flex_pop">
@@ -80,109 +93,111 @@
 				<p><a href="">Cliquez ici pour fermer la fenetre</a></p>
 			</div>
 		</div>
-	
+
 	</div>
-		
-	
-
-		
 
 
 
 
-		<div class="cont_lien">
-			<div class="lien" id="service">
 
-				<div class="anim2">
-					<ul>Services:
-						<li>Vente</li>
-						<li>Location</li>
-						<li>Gestion locataire</li>
-						<li>Rénovation</li>
-					</ul>
+
+
+
+	<div class="cont_lien">
+		<div class="lien" id="service">
+
+			<div class="anim2">
+				<ul>Services:
+					<li>Vente</li>
+					<li>Location</li>
+					<li>Gestion locataire</li>
+					<li>Rénovation</li>
+				</ul>
+			</div>
+		</div>
+
+		<a href="https://ags-immobilier.com/">
+			<div class="lien" id="ags">
+				<div class="anim">
+					<p>Cliquer ici</p>
 				</div>
 			</div>
-
-			<a href="https://ags-immobilier.com/">
-				<div class="lien" id="ags">
-					<div class="anim">
-						<p>Cliquer ici</p>
-					</div>
-				</div>
-			</a>
+		</a>
 
 
-			<div class="lien" id="bien_off">
-				<div class="anim3">
-					<p>Vente a discrétion</p>
-				</div>
+		<div class="lien" id="bien_off">
+			<div class="anim3">
+				<p>Vente a discrétion</p>
 			</div>
+		</div>
 
+
+	</div>
+
+
+	<div class="anim_trot">
+
+		<div class="debut">
+			<img src="img/trotinette.png" style="width: 97px;"></img>
+			<div class="txt">
+				Je me deplace a trotinette oui
+			</div>
 
 		</div>
 
 
-		<div class="anim_trot">
+	</div>
 
-			<div class="debut">
-				<img src="img/trotinette.png" style="width: 97px;"></img>
-				<div class="txt">
-					Je me deplace a trotinette oui
-				</div>
+	<div class="presentation" id="oui">
+		<div class="img">
+			<img src="./img/muriel.png" width="350px">
+		</div>
+		<div class="text1">
+			<h2>A propos de moi : </h2>
+			<z>Muriel Framery <br /></z>
+			<p></br>Consultant immobilier bienveillant</br>
+				<br />Dans l'île saint louis, entre le marais et le quartier latin, depuis bientôt 7 ans après les Antilles et l'Irlande<br />
+				<br />Le goût des autres & le sens du service depuis toujours<br />
+				<br />Dans l'immobilier parisien, d'abord agent et à mon compte désormais<br />
+			</p>
+		</div>
 
-			</div>
-
+		<div class="text2">
+			<p>
+			<h2>A propos de l'entreprise: </h2>
+			<br />Mes Experiences SANS préferences:<br />
+			<br />Transaction vente<br />
+			<br />Transaction location<br />
+			<br />Chasse immobilière location & vente<br /></p>
 
 		</div>
 
-		<div class="presentation" id="oui">
-			<div class="img">
-				<img src="./img/muriel.png" width="350px">
-			</div>
-			<div class="text1">
-				<h2>A propos de moi : </h2>
-				<z>Muriel Framery <br /></z>
-				<p></br>Consultant immobilier bienveillant</br>
-					<br />Dans l'île saint louis, entre le marais et le quartier latin, depuis bientôt 7 ans après les Antilles et l'Irlande<br />
-					<br />Le goût des autres & le sens du service depuis toujours<br />
-					<br />Dans l'immobilier parisien, d'abord agent et à mon compte désormais<br />
-				</p>
-			</div>
+	</div>
 
-			<div class="text2">
-				<p>
-				<h2>A propos de l'entreprise: </h2>
-				<br />Mes Experiences SANS préferences:<br />
-				<br />Transaction vente<br />
-				<br />Transaction location<br />
-				<br />Chasse immobilière location & vente<br /></p>
+	<footer>
+		<div class="container_footer">
+			<div>
 
 			</div>
-
+			<div>
+				<h2>Contact</h2>
+				<ul>
+					<li style="text-transform: uppercase;">Immotrot</li>
+					<li><i class="fa fa-phone"></i> - 07 63 28 29 84</li>
+					<li><i class="fa fa-envelope"></i> - blabla@gmail.com</li>
+					<li><i class="fa fa-map-marker"></i> - 12 rue des pommiers</li>
+				</ul>
+			</div>
+			<div>
+				<h2>Suivez-nous</h2>
+				<ul>
+					<a href="https://www.linkedin.com/in/murielframery2629/" target="_blank">
+						<li style="margin-top:5px"><i class="fa fa-linkedin button_linkedin"></i></li>
+					</a>
+				</ul>
+			</div>
 		</div>
-
-		<footer>
-			<div class="container_footer">
-				<div>
-					
-				</div>
-				<div>
-					<h2>Contact</h2>
-					<ul>
-						<li style="text-transform: uppercase;">Immotrot</li>
-						<li><i class="fa fa-phone"></i> - 07 63 28 29 84</li>
-						<li><i class="fa fa-envelope"></i> - blabla@gmail.com</li>
-						<li><i class="fa fa-map-marker"></i> - 12 rue des pommiers</li>
-					</ul>
-				</div>
-				<div>
-					<h2>Suivez-nous</h2>
-					<ul>
-						<a href="https://www.linkedin.com/in/murielframery2629/" target="_blank"><li style="margin-top:5px"><i class="fa fa-linkedin"></i></li></a>
-					</ul>
-				</div>
-			</div>
-		</footer>
+	</footer>
 
 </body>
 

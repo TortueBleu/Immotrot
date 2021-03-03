@@ -1,24 +1,70 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
-header
-{
-	
-	width: 100%;
-	height: auto;
 
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 0;
+	border-bottom: 1px solid rgba(68, 87, 163, .6);
+	font-family: 'Montserrat', sans-serif;
 }
 
-
-header img
-{
-	margin-top: 1%;
-	margin-left: 1%;
-	width: 40px;
-	height: 40px;
-	
+.header p {
+	margin: 0;
+	margin-left: 20px;
+	font-size: 16px;
+	font-weight: 700;
 }
 
-nav
+.header p:hover {
+	color:#4457A3;
+}
+
+.mail_header {
+	color:#4457A3;
+}
+
+.header-linkedin {
+	margin-right: 20px;
+	background-color: #007bb5;
+	color: white;
+	border-radius: 50%;
+	padding: 10px;
+	transition: all 0.3s ease-in-out;
+}
+
+.header-linkedin:hover {
+	background-color: #0171A6;
+}
+
+.navbar {
+	margin: 0 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.content-navbar-right {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	list-style: none;
+}
+
+.content-navbar-right li {
+	margin-right: 35px;
+}
+
+.content-navbar-right a {
+	font-weight: 700;
+}
+
+.content-navbar-right a:hover {
+	color: #4457A3;
+}
+
+/* nav
 {
 	margin-top: 45px;
 	width: 100%;
@@ -39,7 +85,7 @@ nav
 nav a:hover
 {
 	color: grey;
-}
+} */
 
 
 body,html{
@@ -89,13 +135,6 @@ body,html{
 	width: 100%;
 	height: 500px;
 	justify-content: space-between;
-}
-
-.title
-{
-	display: flex;
-	justify-content: center;
-	font-family: 'Patua One', cursive;
 }
 
 
@@ -206,6 +245,7 @@ h3{
 	color: white;
 	padding-left: 50px;
 	padding-top: 180px;
+	margin-top: 0;
 	font-family: 'Patua One', cursive;
 	letter-spacing: 2px;
 	text-shadow: 1px 1px 2px blue, 0 0 1em blue, 0 0 0.2em blue;
