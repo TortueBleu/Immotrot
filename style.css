@@ -64,11 +64,7 @@ body,html{
 {
 	display: flex;
 	margin-top: 100px;
-<<<<<<< HEAD
-	background-color: #F9F9F9;
-=======
 	border: solid 1px;
->>>>>>> 0d2a2d7d32085c69473f1fb745c2650caac3b53c
 	width: 100%;
 	height: 500px;
 	
