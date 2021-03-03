@@ -14,11 +14,18 @@
 
 </head>
 
-<body>
+<header>
+	<a href="https://www.linkedin.com/in/murielframery2629/"><img src="img/linkedin.png"></a>
 	<div class="title">
-		<h1>Immotrott by <a href="#oui">Muriel Framery</a></h1>
+
+		<h1>Immotrott by <a href="#oui"><strong>Muriel Framery</strong> </a></h1>
 
 	</div>
+	
+</header>
+
+<body>
+	
 
 <<<<<<< Updated upstream
 	<div class="img_defil">
@@ -34,6 +41,7 @@
 
 
 
+<<<<<<< HEAD
 	<div class="img_defil"></div>
 
 	<div class="cont_popup">
@@ -47,6 +55,27 @@
 				<li>salut</li>
 			</ul>
 
+=======
+	
+
+	
+	<div class="cont_popup">
+
+		<div class="popup">
+			<div class="flex_pop">
+				<p>Voici mes offre discrete du moment: </p>
+				<ul>Bien Off:
+					<li>salut</li>
+					<li>salut</li>
+					<li>salut</li>
+					<li>salut</li>
+					<li>salut</li>
+				</ul>
+				<p><a href="">Cliquez ici pour fermer la fenetre</a></p>
+			</div>
+			
+			
+>>>>>>> 0d2a2d7d32085c69473f1fb745c2650caac3b53c
 		</div>
 	</div>
 
@@ -88,7 +117,7 @@
 	<div class="anim_trot">
 
 		<div class="debut">
-			<img src="./img/trotinette.png" ></img>	
+			<img src="img/trotinette.png" style="width: 97px;"></img>	
 			<div class="txt">
 				Je me deplace a trotinette oui
 		</div>
