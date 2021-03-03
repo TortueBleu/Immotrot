@@ -210,7 +210,7 @@ h3{
 	padding-top: 180px;
 	font-family: 'Patua One', cursive;
 	letter-spacing: 2px;
-	text-shadow: 1px 1px 2px blue, 0 0 1em blue, 0 0 0.2em blue;
+	
 }
 
 .carousel .img_defil {
@@ -221,7 +221,7 @@ h3{
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     background-color: #EDEDED;
     background-size: cover;
-	animation: fondu 15s ease-in-out infinite both;
+	
 }
 
 .carousel .img_defil:after {
@@ -248,14 +248,14 @@ h3{
 .img_defil:hover{
     animation-play-state: paused;
 }
-
+/*
 @keyframes fondu{
     0%{background-image: url('img/img1.jpg')  ;}
     33.33%{background-image: url('img/img2.jpg');}
     66.67%{background-image: url('img/img3.jpg');}
     100%{background-image: url('img/img4.jpg');}
 }
-
+*/
 
 .cont_popup
 {
