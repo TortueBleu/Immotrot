@@ -27,7 +27,7 @@
 <body>
 	
 
-<<<<<<< Updated upstream
+
 	<div class="img_defil">
 		<div class="container"></div>
 		<h3>Acheter un bien Immobillier avec <br>
@@ -36,15 +36,10 @@
 
 
 	
-=======
->>>>>>> Stashed changes
 
+	
 
-
-<<<<<<< HEAD
-	<div class="img_defil"></div>
-
-	<div class="cont_popup">
+	
 
 		<div class="popup">
 			<ul>Bien Off:
@@ -54,13 +49,12 @@
 				<li>salut</li>
 				<li>salut</li>
 			</ul>
+	</div>
 
-=======
 	
 
 	
 	<div class="cont_popup">
-
 		<div class="popup">
 			<div class="flex_pop">
 				<p>Voici mes offre discrete du moment: </p>
@@ -73,11 +67,13 @@
 				</ul>
 				<p><a href="">Cliquez ici pour fermer la fenetre</a></p>
 			</div>
-			
-			
->>>>>>> 0d2a2d7d32085c69473f1fb745c2650caac3b53c
 		</div>
+	
 	</div>
+		
+	
+
+		
 
 
 
@@ -154,6 +150,7 @@
 	</div>
 
 </body>
+
 <footer>
 	<div class="container_footer">
 		<div>

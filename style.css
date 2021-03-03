@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
 header
 {
@@ -64,11 +65,11 @@ body,html{
 {
 	display: flex;
 	margin-top: 100px;
-<<<<<<< HEAD
+
 	background-color: #F9F9F9;
-=======
+
 	border: solid 1px;
->>>>>>> 0d2a2d7d32085c69473f1fb745c2650caac3b53c
+
 	width: 100%;
 	height: 500px;
 	
@@ -206,13 +207,16 @@ h3{
     animation: fondu 15s ease-in-out infinite both;
 
 }
+
 .container{
     max-width: max-content;
     background-size: 100% 100%;
 }
+
 .img_defil:hover{
     animation-play-state: paused;
 }
+
 @keyframes fondu{
     0%{background-image: url('img/img1.jpg')  ;}
     33.33%{background-image: url('img/img2.jpg');}
@@ -265,6 +269,5 @@ li
 	align-self: center;
 	margin-left: 10px;
 }
-
 
 
