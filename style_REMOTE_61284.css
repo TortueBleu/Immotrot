@@ -67,10 +67,6 @@ Barre de navigation
 	font-family    : 'Montserrat', sans-serif;
 }
 
-.navbar img {
-	margin-left: 30px;
-}
-
 .content-navbar-right {
 	display       : flex;
 	flex-direction: row;
@@ -293,40 +289,6 @@ h3 {
 	animation-play-state: paused;
 }
 
-<<<<<<< HEAD
-.cont_popup
-{
-	display: flex;
-	width: 100%;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-
-}
-
-.triangle
-{
-	width: 100%;
-	height: auto;
-	
-	display: flex;
-	align-items: flex-end;
-	justify-content: flex-end;
-
-}
-
-
-
-#triangle-code{
-	margin-right: 15%;
- 	display : none;
- 	
- 	height : 0;
- 	width : 0;
- 	border-right : 10px solid transparent;
- 	border-bottom : 20px solid black;
- 	border-left : 10px solid transparent;
-}
 
 .cont_popup {
 	width          : 100%;
@@ -336,28 +298,19 @@ h3 {
 	align-items    : center;
 
 
-
 }
 
 
 
-
-.popup
-{
-	border-radius: 10px;
-	
-	display: none;
-	width: 90%;
+.popup {
+	border-radius   : 10px;
+	display         : none;
+	width           : 50%;
 	background-color: grey;
-	height: 350px;
+	position        : absolute;
+	height          : 350px;
 	background-color: #F9F9F9;
-	border: solid;
-	box-shadow: 12px 12px 2px 1px rgba(0,0,0,0.5);
-}
-
-.popup a
-{
-	text-decoration: underline;
+	border          : solid;
 }
 
 .flex_pop {

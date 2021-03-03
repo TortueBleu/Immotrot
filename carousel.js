@@ -17,7 +17,7 @@ function defil(i){
 	
 
 	i++;
-	tempo = setTimeout("defil("+i+")",3000);
+	tempo = setTimeout("defil("+i+")",5000);
 }
 
 defil(0);

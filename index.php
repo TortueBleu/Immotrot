@@ -53,36 +53,9 @@
 		</div>
 	</div>
 
-	<div class="popup">
-		<ul>Bien Off:
-			<li>salut</li>
-			<li>salut</li>
-			<li>salut</li>
-			<li>salut</li>
-			<li>salut</li>
-		</ul>
-		<div>
+	
 
-		</div>
-		<a href="">Cliquez ici pour quitter la fenetre</a>
-	</div>
-
-	<div class="cont_popup">
-		<div class="popup">
-			<div class="flex_pop">
-				<p>Voici mes offre discrete du moment: </p>
-				<ul>Bien Off:
-					<li>salut</li>
-					<li>salut</li>
-					<li>salut</li>
-					<li>salut</li>
-					<li>salut</li>
-				</ul>
-				<p><a href="">Cliquez ici pour fermer la fenetre</a></p>
-			</div>
-		</div>
-
-	</div>
+	
 
 	<div class="cont_lien">
 		<div class="lien bloc_card" id="service">
@@ -114,6 +87,27 @@
 
 	</div>
 
+	<div class="cont_popup">
+		<div class="triangle">
+				<div id="triangle-code"></div>
+			</div>
+		<div class="popup">
+			
+			
+			<div class="flex_pop">
+				<p>Voici mes offre discrete du moment: </p>
+				<ul>Bien Off:
+					<li>salut</li>
+					<li>salut</li>
+					<li>salut</li>
+					<li>salut</li>
+					<li>salut</li>
+				</ul>
+				<p><a href="">Cliquez ici pour fermer la fenetre</a></p>
+			</div>
+		</div>
+
+	</div>
 
 	<div class="anim_trot">
 
