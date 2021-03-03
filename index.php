@@ -132,32 +132,23 @@
 
 	</div>
 
-	<div class="presentation" id="oui">
-		<div class="img">
-			<img src="./img/muriel.png" width="350px">
+	<section class="section">
+		<div class="container_section">
+			<img class="img_muriel_framery" src="img/trop_beau.jpg" alt="" width="30%">
+			<div class="content_contact">
+				<p class="title_prez">Présentation</p>
+				<p class="subtitle_prez">À propos de moi</p>
+				<p class="content_prez">Muriel Framery</br></br>Consultant immobilier bienveillant dans l'île saint louis, entre le marais et le quartier latin, depuis bientôt 7 ans après les Antilles et l'Irlande. Le goût des autres & le sens du service depuis toujours. Dans l'immobilier parisien, d'abord agent et à mon compte désormais.</p>
+				<p class="subtitle_prez">À propos de l'entreprise</p>
+				<div class="container_about_enterprise">
+				<div class="bloc_about_enterprise">Transaction vente</div>
+				<div class="bloc_about_enterprise">Transaction location</div>
+				<div class="bloc_about_enterprise">Chasse immobilière location & vente</div>
+				</div>
+			</div>
+			<!-- <iframe class="iframe_maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.346073448574!2d2.354488615569481!3d48.85161080913827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671fcbd4e8ee5%3A0x56c004e969467530!2s%C3%8Ele%20Saint-Louis!5e0!3m2!1sfr!2sfr!4v1614762814069!5m2!1sfr!2sfr" width="400" height="300" allowfullscreen="" loading="lazy"></iframe> -->
 		</div>
-		<div class="text1">
-			<h2>A propos de moi : </h2>
-			<z>Muriel Framery <br /></z>
-			<p></br>Consultant immobilier bienveillant</br>
-				<br />Dans l'île saint louis, entre le marais et le quartier latin, depuis bientôt 7 ans après les Antilles et l'Irlande<br />
-				<br />Le goût des autres & le sens du service depuis toujours<br />
-				<br />Dans l'immobilier parisien, d'abord agent et à mon compte désormais<br />
-			</p>
-		</div>
-
-		<div class="text2">
-			<p>
-			<h2>A propos de l'entreprise: </h2>
-			<br />Mes Experiences SANS préferences:<br />
-			<br />Transaction vente<br />
-			<br />Transaction location<br />
-			<br />Chasse immobilière location & vente<br /></p>
-
-		</div>
-
-	</div>
-
+	</section>
 	<footer>
 		<div class="container_footer">
 			<div>
