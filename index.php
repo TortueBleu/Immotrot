@@ -31,11 +31,7 @@
 
 
 	<nav class="navbar">
-		<ul class="content-navbar-left">
-			<li>
-				<p>LOGO</p>
-			</li>
-		</ul>
+		<img src="img/logo.jpg" alt="" width="13%">
 		<ul class="content-navbar-right">
 			<li>
 				<a href="">Mes services</a>
@@ -141,9 +137,9 @@
 				<p class="content_prez">Muriel Framery</br></br>Consultant immobilier bienveillant dans l'île saint louis, entre le marais et le quartier latin, depuis bientôt 7 ans après les Antilles et l'Irlande. Le goût des autres & le sens du service depuis toujours. Dans l'immobilier parisien, d'abord agent et à mon compte désormais.</p>
 				<p class="subtitle_prez">À propos de l'entreprise</p>
 				<div class="container_about_enterprise">
-				<div class="bloc_about_enterprise">Transaction vente</div>
-				<div class="bloc_about_enterprise">Transaction location</div>
-				<div class="bloc_about_enterprise">Chasse immobilière location & vente</div>
+					<div class="bloc_about_enterprise">Transaction vente</div>
+					<div class="bloc_about_enterprise">Transaction location</div>
+					<div class="bloc_about_enterprise">Chasse immobilière location & vente</div>
 				</div>
 			</div>
 			<!-- <iframe class="iframe_maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.346073448574!2d2.354488615569481!3d48.85161080913827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671fcbd4e8ee5%3A0x56c004e969467530!2s%C3%8Ele%20Saint-Louis!5e0!3m2!1sfr!2sfr!4v1614762814069!5m2!1sfr!2sfr" width="400" height="300" allowfullscreen="" loading="lazy"></iframe> -->
@@ -152,22 +148,22 @@
 	<footer>
 		<div class="container_footer">
 			<div>
-
+				<img src="img/logo.jpg" alt="">
 			</div>
 			<div>
 				<h2>Contact</h2>
 				<ul>
 					<li style="text-transform: uppercase;">Immotrot</li>
-					<li><i class="fa fa-phone"></i> - 07 63 28 29 84</li>
-					<li><i class="fa fa-envelope"></i> - blabla@gmail.com</li>
-					<li><i class="fa fa-map-marker"></i> - 12 rue des pommiers</li>
+					<li><i class="fa fa-phone"></i> - 06 99 933 233 </li>
+					<li><i class="fa fa-envelope"></i> - contact@murielframery.fr</li>
+					<li><i class="fa fa-map-marker"></i> - 27 RUE ST LOUIS EN L'ILE<br/>75004 PARIS</li>
 				</ul>
 			</div>
 			<div>
-				<h2>Suivez-nous</h2>
+				<h2>Suivez-moi</h2>
 				<ul>
 					<a href="https://www.linkedin.com/in/murielframery2629/" target="_blank">
-						<li style="margin-top:5px"><i class="fa fa-linkedin button_linkedin"></i></li>
+						<li style="margin-top:5px"><a href="https://www.linkedin.com/in/murielframery2629/"><i class="fa fa-linkedin footer-linkedin"></i></a></li>
 					</a>
 				</ul>
 			</div>

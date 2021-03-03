@@ -2,12 +2,13 @@ footer {
     width           : 100%;
     border-top      : 0.2px solid rgba(0, 0, 0, 0.5);
     background-color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito-sans', sans-serif;
 }
 
 .container_footer {
     display       : flex;
     flex-direction: row;
+    justify-content: space-evenly;
     width         : 80%;
     margin        : auto;
 }
@@ -15,11 +16,12 @@ footer {
 .container_footer div {
     display       : flex;
     flex-direction: column;
-    align-items   : start;
+    align-items   : center;
     width         : 25em;
     margin-right  : 20px;
     margin-top    : 20px;
     margin-bottom : 20px;
+    text-align: center;
 }
 
 .container_footer div ul {
@@ -43,4 +45,18 @@ footer {
     text-align     : center;
     text-decoration: none;
     margin         : 5px 2px;
+}
+
+.footer-linkedin {
+	margin-right    : 20px;
+	background-color: #007bb5;
+	color           : white;
+	border-radius   : 50%;
+	padding         : 10px;
+	transition      : all 0.3s ease-in-out;
+    font-size: 20px;
+}
+
+.footer-linkedin:hover {
+	background-color: #0171A6;
 }
