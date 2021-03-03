@@ -2,6 +2,7 @@ footer {
     width           : 100%;
     border-top      : 0.2px solid rgba(0, 0, 0, 0.5);
     background-color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container_footer {
@@ -17,8 +18,8 @@ footer {
     align-items   : start;
     width         : 25em;
     margin-right  : 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top    : 20px;
+    margin-bottom : 20px;
 }
 
 .container_footer div ul {
@@ -29,12 +30,13 @@ footer {
 
 .container_footer div h2 {
     margin-bottom: 5px;
+    font-family: 'Prompt', sans-serif;
 }
 
 .button_linkedin {
-    background: #007bb5;
-    color     : white;
-    border-radius: 10px;
+    background     : #007bb5;
+    color          : white;
+    border-radius  : 10px;
     padding        : 8px 10px;
     font-size      : 23px;
     width          : 50px;

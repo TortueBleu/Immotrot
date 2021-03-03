@@ -3,6 +3,8 @@
 
 <head>
 	<title>Immotrott</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -20,7 +22,7 @@
 
 	<header class="header">
 		<div>
-			<p><i class="fa fa-envelope mail_header" style="margin-right:10px"></i>contact@murielframery.fr</p>
+			<p>Muriel FRAMERY</p>
 		</div>
 		<div>
 			<a href="https://www.linkedin.com/in/murielframery2629/"><i class="fa fa-linkedin header-linkedin"></i></a>
@@ -47,21 +49,13 @@
 		</ul>
 	</nav>
 
-
 	<div class="carousel">
 		<div class="img_defil">
 			<div class="container"></div>
 			<h3>Acheter un bien Immobillier avec <br>
-			Bienveillance et Sérénité </h3>
+				Bienveillance et Sérénité </h3>
 		</div>
 	</div>
-
-
-
-
-
-
-
 
 	<div class="popup">
 		<ul>Bien Off:
@@ -76,9 +70,6 @@
 		</div>
 		<a href="">Cliquez ici pour quitter la fenetre</a>
 	</div>
-
-
-
 
 	<div class="cont_popup">
 		<div class="popup">
@@ -97,18 +88,10 @@
 
 	</div>
 
-
-
-
-
-
-
-
 	<div class="cont_lien">
-		<div class="lien" id="service">
-
+		<div class="lien bloc_card" id="service">
 			<div class="anim2">
-				<ul>Services:
+				<ul>Services proposés :
 					<li>Vente</li>
 					<li>Location</li>
 					<li>Gestion locataire</li>
@@ -118,7 +101,7 @@
 		</div>
 
 		<a href="https://ags-immobilier.com/">
-			<div class="lien" id="ags">
+			<div class="lien bloc_card" id="ags">
 				<div class="anim">
 					<p>Cliquer ici</p>
 				</div>
@@ -126,9 +109,9 @@
 		</a>
 
 
-		<div class="lien" id="bien_off">
+		<div class="lien bloc_card" id="bien_off">
 			<div class="anim3">
-				<p>Vente a discrétion</p>
+				<p>Vente à discrétion</p>
 			</div>
 		</div>
 
