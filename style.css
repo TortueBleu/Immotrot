@@ -241,6 +241,8 @@ a
 
 
 h3{
+	position: relative;
+	z-index: 8;
 	font-size: 50px;
 	color: white;
 	padding-left: 50px;
@@ -248,18 +250,34 @@ h3{
 	margin-top: 0;
 	font-family: 'Patua One', cursive;
 	letter-spacing: 2px;
-	text-shadow: 1px 1px 2px blue, 0 0 1em blue, 0 0 0.2em blue;
+	
 }
 
-.img_defil{
+.carousel .img_defil {
+	position: relative;
     width: 100%;
     height: 450px;
     margin: 10px 0;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     background-color: #EDEDED;
     background-size: cover;
-    animation: fondu 15s ease-in-out infinite both;
+	
+}
 
+.carousel .img_defil:after {
+	content: "";
+
+	display: block;
+	height: 100%;
+	width: 100%;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	background: rgba(0, 0, 0, 0.25);
+
+	z-index: 4;
 }
 
 .container{

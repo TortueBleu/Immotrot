@@ -48,11 +48,12 @@
 	</nav>
 
 
-
-	<div class="img_defil">
-		<div class="container"></div>
-		<h3>Acheter un bien Immobillier avec <br>
+	<div class="carousel">
+		<div class="img_defil">
+			<div class="container"></div>
+			<h3>Acheter un bien Immobillier avec <br>
 			Bienveillance et Sérénité </h3>
+		</div>
 	</div>
 
 
@@ -203,5 +204,6 @@
 
 
 <script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="carousel.js"></script>
 
 </html>
