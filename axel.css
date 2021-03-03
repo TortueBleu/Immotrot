@@ -16,18 +16,21 @@ footer {
 .container_footer div {
     display       : flex;
     flex-direction: column;
-    align-items   : center;
     width         : 25em;
     margin-right  : 20px;
     margin-top    : 20px;
     margin-bottom : 20px;
-    text-align: center;
+    margin-left: 6em;
 }
 
 .container_footer div ul {
     margin-top  : 0;
     padding-left: 0;
     list-style  : none;
+}
+
+.container_footer div ul li {
+    margin-bottom: 15px;
 }
 
 .container_footer div h2 {
