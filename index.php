@@ -122,6 +122,13 @@
 
 	</div>
 
+	<div class="container_shifting">
+		<img src="img/scooter.gif" alt="" width="30%">
+		<div class="content_shifting">
+			<h2>Mes déplacements sont effectués 100%<br/>en trottinette</h2>
+		</div>
+	</div>
+
 	<section class="section">
 		<div class="container_section">
 			<img class="img_muriel_framery" src="img/trop_beau.jpg" alt="" width="30%">
