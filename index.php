@@ -24,6 +24,13 @@
 	
 </header>
 
+
+<nav>
+	<a href="">Liens</a>
+	<a href="">Les trotinettes</a>
+	<a href="">Contact</a>
+</nav>
+
 <body>
 	
 
@@ -49,6 +56,10 @@
 				<li>salut</li>
 				<li>salut</li>
 			</ul>
+			<div>
+				
+			</div>
+			<a href="">Cliquez ici pour quitter la fenetre</a>
 	</div>
 
 	
