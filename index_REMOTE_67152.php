@@ -170,9 +170,6 @@ SERVICES
 
 	</div>
 
-
-	
-
 <!--
 ---------
 
@@ -181,20 +178,25 @@ ANIMATION TROTINETTE
 
 -->
 
-	
+	<div class="anim_trot" id="trotinette">
+
+		<div class="debut">
+			<img src="img/trotinette.png" style="width: 97px;"></img>
+			<div class="txt">
+				Je me deplace a trotinette oui
+			</div>
+
+		</div>
 
 
+	</div>
 
-<div class="flex_trot">
-	<img src="img/trotinette.png" style="width: 200px; height: 200px;"></img>
 	<div class="container_shifting">
 		<img src="img/scooter.gif" alt="" width="30%">
 		<div class="content_shifting">
 			<h2>Mes déplacements sont effectués 100%<br />en trottinette</h2>
 		</div>
 	</div>
-</div>
-	
 
 <!--
 ---------

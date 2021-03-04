@@ -181,7 +181,7 @@ a {
 
 
 a:hover {
-	color: rgb(109, 2, 180);
+	color: #4457A3;
 }
 
 
@@ -451,6 +451,11 @@ li {
 
 .container_shifting {
 	font-family   : "Nunito-Sans", sans-serif;
+
+	margin-left   : 6.2em;
+	
+	
+
 	display       : flex;
 	flex-direction: row;
 	filter        : drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -489,10 +494,14 @@ li {
 /* Maps */
 
 .iframe_maps {
-	margin-bottom: 95px;
+	margin-bottom: none;
 }
 
 /* slideshow */
+
+figure {
+	margin: 0;
+}
 
 .mySlides {
 	display: none
@@ -506,6 +515,11 @@ img {
 .slideshow-container {
 	position : relative;
 	margin   : auto;
+	height: 500px;
+	overflow: hidden;
+}
+.slideshow-container img {
+	width: 100%;
 }
 
 /* Next & previous buttons */

@@ -170,9 +170,9 @@ SERVICES
 
 	</div>
 
-
+<<<<<<< HEAD
 	
-
+=======
 <!--
 ---------
 
@@ -181,8 +181,8 @@ ANIMATION TROTINETTE
 
 -->
 
-	
-
+	<div class="anim_trot" id="trotinette">
+>>>>>>> 98ee074582a80fef098d85fd6b0dcf28867a2d16
 
 
 <div class="flex_trot">
