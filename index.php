@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
+<!--
+---------
 
+LIER LES CSS
+
+---------
+
+-->
 <head>
 	<title>Immotrott</title>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
@@ -18,6 +25,16 @@
 
 </head>
 
+<!--
+---------
+
+HEADER
+
+---------
+
+-->
+
+
 <body>
 
 	<header class="header">
@@ -28,6 +45,17 @@
 			<a target="_blank" href="https://www.linkedin.com/in/murielframery2629/"><i class="fa fa-linkedin header-linkedin" ></i></a>
 		</div>
 	</header>
+
+
+<!--
+---------
+
+NAVBAR
+
+---------
+
+-->
+
 
 
 	<nav class="navbar">
@@ -81,7 +109,14 @@
 
 
 
+<!--
+---------
 
+SERVICES
+
+---------
+
+-->
 
 	<div class="cont_lien" id="services">
 		<div class="lien bloc_card" id="service">
@@ -135,6 +170,14 @@
 
 	</div>
 
+<!--
+---------
+
+ANIMATION TROTINETTE
+---------
+
+-->
+
 	<div class="anim_trot" id="trotinette">
 
 		<div class="debut">
@@ -155,6 +198,15 @@
 		</div>
 	</div>
 
+<!--
+---------
+
+INFOS MURIEL
+
+---------
+
+-->
+
 	<section class="section" id="oui">
 		<div class="container_section">
 			<img class="img_muriel_framery" src="img/trop_beau.jpg" alt="" width="30%">
@@ -173,6 +225,16 @@
 	</section>
 
 	<iframe class="iframe_maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.346073448574!2d2.354488615569481!3d48.85161080913827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671fcbd4e8ee5%3A0x56c004e969467530!2s%C3%8Ele%20Saint-Louis!5e0!3m2!1sfr!2sfr!4v1614762814069!5m2!1sfr!2sfr" style="border:none;" width="100%" height="300" allowfullscreen="" loading="lazy"></iframe>
+
+
+<!--
+---------
+
+FOOTER CONTACT
+
+---------
+
+-->
 
 	<footer>
 		<div class="container_footer">
@@ -200,6 +262,15 @@
 	</footer>
 
 </body>
+
+<!--
+---------
+
+CAROUSSEL FONCTION
+
+---------
+
+-->
 
 <script>
 	var slideIndex = 1;
