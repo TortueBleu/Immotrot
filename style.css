@@ -478,6 +478,10 @@ li {
 
 /* slideshow */
 
+figure {
+	margin: 0;
+}
+
 .mySlides {
 	display: none
 }
@@ -490,6 +494,11 @@ img {
 .slideshow-container {
 	position : relative;
 	margin   : auto;
+	height: 500px;
+	overflow: hidden;
+}
+.slideshow-container img {
+	width: 100%;
 }
 
 /* Next & previous buttons */
