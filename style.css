@@ -8,6 +8,10 @@
 -------------------
 */
 
+* {
+	box-sizing: border-box;
+}
+
 body,
 html {
 	scroll-behavior: smooth;
@@ -406,7 +410,7 @@ li {
 }
 
 .subtitle_prez {
-	font-size    : 50px;
+	font-size    : 30px;
 	font-weight  : 700;
 	line-height  : 1.4;
 	color        : rgba(0, 0, 0, 0.8);
