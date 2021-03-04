@@ -10,6 +10,7 @@ LIER LES CSS
 -->
 <head>
 	<title>Immotrott</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -20,6 +21,7 @@ LIER LES CSS
 
 	<link rel="stylesheet" type="text/css" href="prez.css">
 
+	<link rel="stylesheet" type="text/css" href="responsive.css">
 
 	<link rel="stylesheet" type="text/css" href="axel.css">
 
@@ -130,7 +132,7 @@ SERVICES
 			</div>
 		</div>
 
-		<a target="_blank" href="https://ags-immobilier.com/">
+		<a class="link_services" target="_blank" href="https://ags-immobilier.com/">
 			<div class="lien bloc_card" id="ags">
 				<div class="anim">
 					<p>Cliquer ici</p>
