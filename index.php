@@ -158,11 +158,12 @@ SERVICES
 			<div class="flex_pop">
 				<p>Voici mes offre discrete du moment: </p>
 				<ul>Bien Off:
-					<li>salut</li>
-					<li>salut</li>
-					<li>salut</li>
-					<li>salut</li>
-					<li>salut</li>
+					<?php 
+
+					include 'BDD.php';
+
+					?>
+					
 				</ul>
 				<p><a href="">Cliquez ici pour fermer la fenetre</a></p>
 			</div>
@@ -186,7 +187,7 @@ ANIMATION TROTINETTE
 
 
 <div class="flex_trot">
-	<img src="img/trotinette.png" style="width: 200px; height: 200px;"></img>
+	
 	<div class="container_shifting">
 		<img src="img/scooter.gif" alt="" width="30%">
 		<div class="content_shifting">
