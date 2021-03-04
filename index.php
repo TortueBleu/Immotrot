@@ -16,6 +16,8 @@ LIER LES CSS
 
 	<link rel="stylesheet" type="text/css" href="style.css">
 
+	
+
 	<link rel="stylesheet" type="text/css" href="trotinette.css">
 
 	<link rel="stylesheet" type="text/css" href="prez.css">
@@ -185,7 +187,7 @@ ANIMATION TROTINETTE
 
 
 
-<div class="flex_trot">
+<div class="flex_trot" id="trotinette">
 	<img src="img/trotinette.png" style="width: 200px; height: 200px;"></img>
 	<div class="container_shifting">
 		<img src="img/scooter.gif" alt="" width="30%">
