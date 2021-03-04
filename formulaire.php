@@ -18,11 +18,7 @@
                 <label for="exampleInputEmail1" class="form-label">Bien</label>
                 <input type="texte" class="form-control" >
             </div>
-<!--            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Bien 2 </label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
--->        
+ 
             <button type="submit" class="btn btn-primary"> Ajouter un bien</button>
 
             <button type="submit " class="btn  btn-danger ms-1 "> <a href='index.php'>Supprimer</a> </button>
@@ -32,21 +28,7 @@
     </div>
 
     <div class=" card-body" style="max-width: 30rem ">
- <!--        <form>
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Bien</label>
-                <input type="texte" class="form-control" >
-            </div>
-           <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Bien 2 </label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-       
-            <button type="submit" class="btn btn-primary"> Ajouter un bien</button>
 
-            <button type="submit " class="btn  btn-danger ms-1 "> <a href='index.php'>Supprimer</a> </button>
-
-        --> 
         </form>
     </div>
 
