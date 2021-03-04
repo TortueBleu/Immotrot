@@ -1,25 +1,8 @@
-/*body
-{
-    background-size: cover;
-    /*background: linear-gradient(to bottom, #0099ff 44%, #66ccff 100%);
-    background-size: cover;
-    background-color:black ;
-}
-.text{
-    color: white;
-}
-.formulaire{
-    font-size: medium;
-    background-color: black;
-}*/
-
-
 .card-body{
 
     margin-left: 35%;
     margin-top: 5%;
     margin-bottom: 3%;
-  
     box-shadow:  7px 7px 7px black;
     background-color: white;
     
