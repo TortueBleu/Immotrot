@@ -25,7 +25,7 @@
 			<p><a href="#oui">Muriel FRAMERY</a></p>
 		</div>
 		<div>
-			<a href="https://www.linkedin.com/in/murielframery2629/"><i class="fa fa-linkedin header-linkedin"></i></a>
+			<a target="_blank" href="https://www.linkedin.com/in/murielframery2629/"><i class="fa fa-linkedin header-linkedin" ></i></a>
 		</div>
 	</header>
 
@@ -95,7 +95,7 @@
 			</div>
 		</div>
 
-		<a href="https://ags-immobilier.com/">
+		<a target="_blank" href="https://ags-immobilier.com/">
 			<div class="lien bloc_card" id="ags">
 				<div class="anim">
 					<p>Cliquer ici</p>
