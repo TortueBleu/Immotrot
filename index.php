@@ -8,6 +8,7 @@ LIER LES CSS
 ---------
 
 -->
+
 <head>
 	<title>Immotrott</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,12 +45,12 @@ HEADER
 			<p><a href="#oui">Muriel FRAMERY</a></p>
 		</div>
 		<div>
-			<a target="_blank" href="https://www.linkedin.com/in/murielframery2629/"><i class="fa fa-linkedin header-linkedin" ></i></a>
+			<a target="_blank" href="https://www.linkedin.com/in/murielframery2629/"><i class="fa fa-linkedin header-linkedin"></i></a>
 		</div>
 	</header>
 
 
-<!--
+	<!--
 ---------
 
 NAVBAR
@@ -61,7 +62,7 @@ NAVBAR
 
 
 	<nav class="navbar">
-		<img src="img/logo.jpg" alt="" width="13%">
+		<img src="img/logo.png" alt="" width="13%">
 		<ul class="content-navbar-right">
 			<li>
 				<a href="#services">Mes services</a>
@@ -86,15 +87,15 @@ NAVBAR
 	<div class="slideshow-container">
 
 		<div class="mySlides fade">
-			<figure><img src="img/img1.jpg"></figure>
+			<figure><img src="img/carousel/carou_2.png"></figure>
 		</div>
 
 		<div class="mySlides fade">
-			<figure><img src="img/img2.jpg"></figure>
+			<figure><img src="img/carousel/carou_3.png"></figure>
 		</div>
 
 		<div class="mySlides fade">
-			<figure><img src="img/img3.jpg"></figure>
+			<figure><img src="img/carousel/carou_5.png"></figure>
 		</div>
 
 		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -111,7 +112,7 @@ NAVBAR
 
 
 
-<!--
+	<!--
 ---------
 
 SERVICES
@@ -173,32 +174,24 @@ SERVICES
 	</div>
 
 
-	
 
-<!--
+
+	<!--
 ---------
 
-ANIMATION TROTINETTE
+TROTINETTE
 ---------
 
 -->
 
-	
-
-
-
-<div class="flex_trot">
-	<img src="img/trotinette.png" style="width: 200px; height: 200px;"></img>
 	<div class="container_shifting">
 		<img src="img/scooter.gif" alt="" width="30%">
 		<div class="content_shifting">
 			<h2>Mes déplacements sont effectués 100%<br />en trottinette</h2>
 		</div>
 	</div>
-</div>
-	
 
-<!--
+	<!--
 ---------
 
 INFOS MURIEL
@@ -220,6 +213,12 @@ INFOS MURIEL
 					<div class="bloc_about_enterprise">Transaction location</div>
 					<div class="bloc_about_enterprise">Chasse immobilière location & vente</div>
 				</div>
+				<p class="subtitle_prez" style="margin-top:30px">Mes partenaires</p>
+				<div class="container_about_enterprise">
+					<img src="img/maestos.png" alt="" width="22%" style="margin-right:30px">
+					<img src="img/ags_immo.png" alt="" width="25%" style="margin-right:25px">
+					<img src="img/logo_nath.jpg" alt="" width="25%" height="95px">
+				</div>
 			</div>
 		</div>
 	</section>
@@ -227,7 +226,7 @@ INFOS MURIEL
 	<iframe class="iframe_maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1675.1016222104477!2d2.355370983569609!3d48.85129453994449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671fc9c03c6ab%3A0x2de55441f2d30d25!2s27%20Rue%20Saint-Louis%20en%20l&#39;%C3%8Ele%2C%2075004%20Paris!5e0!3m2!1sfr!2sfr!4v1614848586346!5m2!1sfr!2sfr" style="border:none;" width="100%" height="300" allowfullscreen="" loading="lazy"></iframe>
 
 
-<!--
+	<!--
 ---------
 
 FOOTER CONTACT
@@ -239,7 +238,7 @@ FOOTER CONTACT
 	<footer>
 		<div class="container_footer">
 			<div>
-				<img src="img/logo.jpg" alt="">
+				<img src="img/logo.png">
 			</div>
 			<div id="contact">
 				<h2>Contact</h2>
