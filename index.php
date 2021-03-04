@@ -34,13 +34,13 @@
 		<img src="img/logo.jpg" alt="" width="13%">
 		<ul class="content-navbar-right">
 			<li>
-				<a href="">Mes services</a>
+				<a href="#services">Mes services</a>
 			</li>
 			<li>
-				<a href="">Mode de déplacement</a>
+				<a href="#trotinette">Mode de déplacement </a>
 			</li>
 			<li>
-				<a href="">Contactez-moi</a>
+				<a href="#contact">Contactez-moi</a>
 			</li>
 		</ul>
 	</nav>
@@ -83,7 +83,7 @@
 
 
 
-	<div class="cont_lien">
+	<div class="cont_lien" id="services">
 		<div class="lien bloc_card" id="service">
 			<div class="anim2">
 				<ul>Services proposés :
@@ -135,7 +135,7 @@
 
 	</div>
 
-	<div class="anim_trot">
+	<div class="anim_trot" id="trotinette">
 
 		<div class="debut">
 			<img src="img/trotinette.png" style="width: 97px;"></img>
@@ -155,7 +155,7 @@
 		</div>
 	</div>
 
-	<section class="section">
+	<section class="section" id="oui">
 		<div class="container_section">
 			<img class="img_muriel_framery" src="img/trop_beau.jpg" alt="" width="30%">
 			<div class="content_contact">
@@ -179,7 +179,7 @@
 			<div>
 				<img src="img/logo.jpg" alt="">
 			</div>
-			<div>
+			<div id="contact">
 				<h2>Contact</h2>
 				<ul>
 					<li style="text-transform: uppercase;">Immotrot</li>
