@@ -95,6 +95,16 @@ Barre de navigation
 	color: #4457A3;
 }
 
+.title_website {
+	display:flex;
+	align-items:center;
+	font-size:40px;
+	font-family:'Prompt', sans-serif;
+	color:rgba(68, 87, 163, .6);
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom: 28px;
+}
 /* 
 -------------------
 Barre de navigation 
@@ -132,16 +142,6 @@ Barre de navigation
 -------------------
 */
 
-.anim_trot {
-	margin-top: 100px;
-	border-top: 0.2px solid rgba(0, 0, 0, .3);
-	;
-	border-bottom: 0.2px solid rgba(0, 0, 0, .3);
-	;
-	padding: 15px 15px;
-	height : 250px;
-	width  : 100%;
-}
 
 /* 
 -------------------
@@ -504,7 +504,7 @@ img {
 .slideshow-container {
 	position: relative;
 	margin  : auto;
-	height  : 500px;
+	height  : 700px;
 	overflow: hidden;
 	width   : 80%;
 	margin  : auto;
@@ -512,7 +512,7 @@ img {
 
 .slideshow-container img {
 	width     : 100%;
-	margin-top: -50px;
+	margin-top: -20px;
 }
 
 /* Next & previous buttons */

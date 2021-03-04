@@ -63,6 +63,7 @@ NAVBAR
 
 	<nav class="navbar">
 		<img src="img/logo.png" alt="" width="13%">
+		<p class="title_website">ImmoTrott</p>
 		<ul class="content-navbar-right">
 			<li>
 				<a href="#services">Mes services</a>
@@ -75,14 +76,6 @@ NAVBAR
 			</li>
 		</ul>
 	</nav>
-
-	<!-- 	<div class="carousel">
-		<div class="img_defil">
-			<div class="container"></div>
-			<h3>Acheter un bien Immobillier avec <br>
-				Bienveillance et Sérénité </h3>
-		</div>
-	</div> -->
 
 	<div class="slideshow-container">
 
@@ -136,7 +129,10 @@ SERVICES
 		<a class="link_services" target="_blank" href="https://ags-immobilier.com/">
 			<div class="lien bloc_card" id="ags">
 				<div class="anim">
-					<p>Cliquer ici</p>
+				<ul>Services proposés :
+					<li>Ile saint Louis Paris IV</li>
+					<li>AGS IMMO – Ternes Champs Elysées<br/>PARIS XVII</li>
+				</ul>
 				</div>
 			</div>
 		</a>
@@ -163,7 +159,7 @@ SERVICES
 				<ul>Bien Off:
 					<?php 
 
-					include 'BDD.php';
+					/* include 'BDD.php'; */
 
 					?>
 					
