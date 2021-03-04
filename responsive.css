@@ -5,7 +5,101 @@
         justify-content: space-evenly;
     }
 
-    .bloc_card {
+    .bloc_card:not(nth-child(2)) {
         width: 70%;
+    }
+
+    .container_section {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .content_contact {
+        width: 100%;
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content_contact p {
+        text-align: center;
+    }
+
+    .container_about_enterprise {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+    }
+
+    .subtitle_prez {
+        font-size: 25px;
+    }
+
+    .bloc_about_enterprise {
+        width: 70%;
+        margin-bottom: 40px;
+        margin-right: 0;
+    }
+
+    .img_muriel_framery {
+        margin: auto;
+        width: 80%;
+    }
+
+    .container_footer {
+        flex-direction: column !important;
+        justify-content: space-evenly !important;
+        align-items: center !important;
+    }
+
+    .container_footer div {
+        width: 80% !important;
+        margin-left: 20px !important;
+        text-align: center;
+        margin-top: 0 !important;
+    }
+
+    .container_footer:first-child img {
+        margin: auto;
+        padding-top: 20px;
+    }
+
+    .container_footer img {
+        width: 50%;
+    }
+
+    .footer-linkedin {
+        margin-right: 0 !important;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar img {
+        width: 70%;
+        margin: auto;
+    }
+
+    .content-navbar-right {
+        flex-direction: column;
+    }
+
+    .content-navbar-right li {
+        margin-bottom: 10px;
+    }
+
+    .content_prez {
+        width: 80%;
+        margin-top: 0;
+    }
+
+    .slideshow-container {
+        height: 200px;
+    }
+
+    .container_shifting img {
+        width: 100%;
     }
 }
