@@ -451,7 +451,7 @@ li {
 
 .container_shifting {
 	font-family   : "Nunito-Sans", sans-serif;
-	margin-left   : 8em;
+	margin-left   : 6.2em;
 	margin-top    : 95px;
 	display       : flex;
 	flex-direction: row;
@@ -473,7 +473,7 @@ li {
 /* Maps */
 
 .iframe_maps {
-	margin-bottom: 95px;
+	margin-bottom: none;
 }
 
 /* slideshow */
