@@ -1,0 +1,577 @@
+/* Importation des polices d'écritures */
+
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+/* 
+-------------------
+    Body & HTML 
+-------------------
+*/
+
+body,
+html {
+	scroll-behavior: smooth;
+	margin         : 0%;
+}
+
+/* 
+-------------------
+      Header 
+-------------------
+*/
+
+.header {
+	display        : flex;
+	justify-content: space-between;
+	align-items    : center;
+	padding        : 15px 0;
+	border-bottom  : 1px solid rgba(68, 87, 163, .6);
+	font-family    : 'Montserrat', sans-serif;
+}
+
+.header p {
+	margin     : 0;
+	margin-left: 20px;
+	font-size  : 16px;
+	font-weight: 700;
+}
+
+.header p:hover {
+	color: #4457A3;
+}
+
+.header-linkedin {
+	margin-right    : 20px;
+	background-color: #007bb5;
+	color           : white;
+	border-radius   : 50%;
+	padding         : 10px;
+	transition      : all 0.3s ease-in-out;
+}
+
+.header-linkedin:hover {
+	background-color: #0171A6;
+}
+
+/* 
+-------------------
+Barre de navigation 
+-------------------
+*/
+
+.navbar {
+	display        : flex;
+	flex-direction : row;
+	justify-content: space-between;
+	font-family    : 'Montserrat', sans-serif;
+	padding-bottom: 20px;
+	border-bottom  : 1px solid rgba(68, 87, 163, .6);
+}
+
+.navbar img {
+	margin-left: 30px;
+}
+
+.content-navbar-right {
+	display       : flex;
+	flex-direction: row;
+	align-items   : center;
+	list-style    : none;
+}
+
+.content-navbar-right li {
+	margin-right: 35px;
+}
+
+.content-navbar-right a {
+	font-weight: 700;
+}
+
+.content-navbar-right a:hover {
+	color: #4457A3;
+}
+
+/* 
+-------------------
+Barre de navigation 
+-------------------
+*/
+
+.bienservice {
+	background-color: grey;
+	width           : 100%;
+	height          : 300px;
+}
+
+.lien {
+	margin-top      : 100px;
+	background-color: grey;
+	width           : 260px;
+	height          : 260px;
+	display         : flex;
+	align-items     : flex-end;
+	text-decoration : none;
+
+}
+
+.cont_lien {
+	font-family    : 'Montserrat', sans-serif;
+	font-weight    : 900;
+	display        : flex;
+	flex-direction : row;
+	justify-content: space-around;
+}
+
+/* 
+-------------------
+	Trotinette 
+-------------------
+*/
+
+.anim_trot {
+	margin-top: 100px;
+	border-top: 0.2px solid rgba(0, 0, 0, .3);
+	;
+	border-bottom: 0.2px solid rgba(0, 0, 0, .3);
+	;
+	padding: 15px 15px;
+	height : 100px;
+}
+
+/* 
+-------------------
+      Cards 
+-------------------
+*/
+
+#ags {
+	background-image: url('img/agsImmo.png');
+	background-size : 260px;
+	filter          : drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.anim {
+	display         : flex;
+	justify-content : center;
+	align-items     : center;
+	width           : 100%;
+	min-height      : 0%;
+	max-height      : 0%;
+	transition      : all ease 1s;
+	overflow        : hidden;
+	background-color: #4457A3;
+	opacity         : 0.7;
+	color           : white;
+}
+
+.cont_lien a:hover .anim {
+	min-height: 100%;
+}
+
+.anim p {
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+	color          : black;
+}
+
+
+a:hover {
+	color: rgb(109, 2, 180);
+}
+
+
+
+#service {
+	filter          : drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	background-size : 100% 100%;
+	background-image: url('img/paris.jpg');
+}
+
+.anim2 {
+	width           : 100%;
+	min-height      : 0%;
+	max-height      : 0%;
+	overflow        : hidden;
+	background-color: #4457A3;
+	transition      : all ease 1s;
+	opacity         : 0.7;
+	color           : white;
+}
+
+.cont_lien #service:hover .anim2 {
+	min-height: 100%;
+	max-height: 100%;
+}
+
+#bien_off {
+	background-image: url('img/paris2.jpg');
+	background-size : 100% 100%;
+	filter          : drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	display         : flex;
+}
+
+.anim3 {
+	width           : 100%;
+	min-height      : 0%;
+	max-height      : 0%;
+	overflow        : hidden;
+	background-color: #4457A3;
+	transition      : all ease 1s;
+	opacity         : 0.7;
+	display         : flex;
+	justify-content : center;
+	align-items     : center;
+	color           : white;
+}
+
+.cont_lien #bien_off:hover .anim3 {
+	min-height: 100%;
+	max-height: 100%;
+}
+
+.bloc_card {
+	border       : 3px solid #4457A3;
+	border-radius: 10px;
+}
+
+/* 
+-------------------
+     Carrousel
+-------------------
+*/
+
+
+h3 {
+	position      : relative;
+	z-index       : 8;
+	font-size     : 50px;
+	color         : white;
+	padding-left  : 50px;
+	padding-top   : 180px;
+	margin-top    : 0;
+	font-family   : 'Patua One', cursive;
+	letter-spacing: 2px;
+
+}
+
+.carousel .img_defil {
+	position        : relative;
+	width           : 100%;
+	height          : 450px;
+	margin          : 10px 0;
+	filter          : drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	background-color: #EDEDED;
+	background-size : cover;
+
+}
+
+.carousel .img_defil:after {
+	content: "";
+
+	display: block;
+	height : 100%;
+	width  : 100%;
+
+	position: absolute;
+	top     : 0;
+	left    : 0;
+
+	background: rgba(0, 0, 0, 0.25);
+
+	z-index: 4;
+}
+
+.container {
+	max-width      : max-content;
+	background-size: 100% 100%;
+}
+
+.img_defil:hover {
+	animation-play-state: paused;
+}
+
+
+.cont_popup {
+	display        : flex;
+	width          : 100%;
+	justify-content: center;
+	align-items    : center;
+	flex-direction : column;
+
+}
+
+.triangle {
+	width : 100%;
+	height: auto;
+
+	display        : flex;
+	align-items    : flex-end;
+	justify-content: flex-end;
+
+}
+
+
+
+#triangle-code {
+	margin-right: 15%;
+	display     : none;
+
+	height       : 0;
+	width        : 0;
+	border-right : 10px solid transparent;
+	border-bottom: 20px solid black;
+	border-left  : 10px solid transparent;
+}
+
+.cont_popup {
+	width          : 100%;
+	height         : 1px;
+	display        : flex;
+	justify-content: center;
+	align-items    : center;
+
+
+
+}
+
+
+
+
+.popup {
+	border-radius: 10px;
+
+	display         : none;
+	width           : 90%;
+	background-color: grey;
+	height          : 350px;
+	background-color: #F9F9F9;
+	border          : solid;
+	box-shadow      : 12px 12px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.popup a {
+	text-decoration: underline;
+}
+
+.flex_pop {
+	display       : flex;
+	flex-direction: column;
+	align-items   : flex-start;
+	width         : 100%;
+	height        : 100%;
+}
+
+li {
+	margin-top: 10px;
+}
+
+.flex_pop p {
+	align-self : center;
+	margin-left: 10px;
+}
+
+/* 
+-------------------
+    Présentation
+-------------------
+*/
+
+.section {
+	font-family: "Nunito-Sans", sans-serif;
+	margin     : 95px 0;
+}
+
+.container_section {
+	margin        : 0 100px;
+	display       : flex;
+	flex-direction: row;
+}
+
+.content_contact {
+	margin-top  : 20px;
+	padding-left: 50px;
+}
+
+.title_prez {
+	text-transform: uppercase;
+	font-size     : 13px;
+	font-weight   : 700;
+	display       : block;
+	letter-spacing: 1px;
+	color         : #4457A3;
+}
+
+.subtitle_prez {
+	font-size    : 50px;
+	font-weight  : 700;
+	line-height  : 1.4;
+	color        : rgba(0, 0, 0, 0.8);
+	margin-top   : 0;
+	margin-bottom: 25px;
+}
+
+.content_prez {
+	font-size    : 16px;
+	line-height  : 1.8;
+	font-weight  : 400;
+	color        : #999999;
+	margin-bottom: 4em;
+}
+
+.container_about_enterprise {
+	display       : flex;
+	flex-direction: row;
+	margin-right  : 15px;
+}
+
+.bloc_about_enterprise {
+	text-align   : center;
+	background   : rgba(0, 0, 0, 0.03);
+	padding      : 30px 20px;
+	border-radius: 4px;
+	margin-right : 20px;
+	font-size    : 25px;
+	font-weight  : 600;
+	color        : rgba(0, 0, 0, 0.8);
+	line-height  : 1;
+	display      : inline-block;
+	margin-bottom: 5px;
+	transition   : all 0.3s ease-in-out;
+}
+
+.bloc_about_enterprise:hover {
+	color: #4457A3;
+}
+
+/* trotinette */
+
+.container_shifting {
+	font-family   : "Nunito-Sans", sans-serif;
+	margin-left   : 8em;
+	margin-top    : 95px;
+	display       : flex;
+	flex-direction: row;
+	filter        : drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.content_shifting {
+	background-image: linear-gradient(163deg, #4457A3 50%, #36488F 50%);
+	width           : 100%;
+	color           : #fff;
+	font-size       : 20px;
+	font-weight     : 600;
+	text-align      : center;
+	padding         : 70px 0;
+	line-height     : 1.5;
+	letter-spacing  : 2px;
+}
+
+/* Maps */
+
+.iframe_maps {
+	margin-bottom: 95px;
+}
+
+/* slideshow */
+
+.mySlides {
+	display: none
+}
+
+img {
+	vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+	position : relative;
+	margin   : auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+	cursor       : pointer;
+	position     : absolute;
+	top          : 50%;
+	width        : auto;
+	padding      : 16px;
+	margin-top   : -22px;
+	color        : white;
+	font-weight  : bold;
+	font-size    : 18px;
+	transition   : 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select  : none;
+}
+
+/* Position the "next button" to the right */
+.next {
+	right        : 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+	cursor          : pointer;
+	height          : 15px;
+	width           : 15px;
+	margin          : 0 2px;
+	background-color: #bbb;
+	border-radius   : 50%;
+	display         : inline-block;
+	transition      : background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+	background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+	-webkit-animation-name    : fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name            : fade;
+	animation-duration        : 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {
+		opacity: .4
+	}
+
+	to {
+		opacity: 1
+	}
+}
+
+@keyframes fade {
+	from {
+		opacity: .4
+	}
+
+	to {
+		opacity: 1
+	}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+
+	.prev,
+	.next,
+	.text {
+		font-size: 11px
+	}
+}

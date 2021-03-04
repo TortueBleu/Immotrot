@@ -31,11 +31,7 @@
 
 
 	<nav class="navbar">
-		<ul class="content-navbar-left">
-			<li>
-				<p>LOGO</p>
-			</li>
-		</ul>
+		<img src="img/logo.jpg" alt="" width="13%">
 		<ul class="content-navbar-right">
 			<li>
 				<a href="">Mes services</a>
@@ -49,17 +45,43 @@
 		</ul>
 	</nav>
 
-	<div class="carousel">
+	<!-- 	<div class="carousel">
 		<div class="img_defil">
 			<div class="container"></div>
 			<h3>Acheter un bien Immobillier avec <br>
 				Bienveillance et Sérénité </h3>
 		</div>
+	</div> -->
+
+	<div class="slideshow-container">
+
+		<div class="mySlides fade">
+			<img src="img/img1.jpg" style="width:100%" height="500px">
+		</div>
+
+		<div class="mySlides fade">
+			<img src="img/img2.jpg" style="width:100%" height="500px">
+		</div>
+
+		<div class="mySlides fade">
+			<img src="img/img3.jpg" style="width:100%" height="500px">
+		</div>
+
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+	</div>
+	<br>
+
+	<div style="text-align:center">
+		<span class="dot" onclick="currentSlide(1)"></span>
+		<span class="dot" onclick="currentSlide(2)"></span>
+		<span class="dot" onclick="currentSlide(3)"></span>
 	</div>
 
-	
 
-	
+
+
 
 	<div class="cont_lien">
 		<div class="lien bloc_card" id="service">
@@ -93,11 +115,11 @@
 
 	<div class="cont_popup">
 		<div class="triangle">
-				<div id="triangle-code"></div>
-			</div>
+			<div id="triangle-code"></div>
+		</div>
 		<div class="popup">
-			
-			
+
+
 			<div class="flex_pop">
 				<p>Voici mes offre discrete du moment: </p>
 				<ul>Bien Off:
@@ -113,18 +135,19 @@
 
 	</div>
 
-	<div class="anim_trot">
+	
 
-		<div class="debut">
-			<img src="img/trotinette.png" style="width: 97px;"></img>
-			<div class="txt">
-				Je me deplace a trotinette oui
-			</div>
 
+<div class="flex_trot">
+	<img src="img/trotinette.png" style="width: 200px; height: 200px;"></img>
+	<div class="container_shifting">
+		<img src="img/scooter.gif" alt="" width="30%">
+		<div class="content_shifting">
+			<h2>Mes déplacements sont effectués 100%<br />en trottinette</h2>
 		</div>
-
-
 	</div>
+</div>
+	
 
 	<section class="section">
 		<div class="container_section">
@@ -135,33 +158,35 @@
 				<p class="content_prez">Muriel Framery</br></br>Consultant immobilier bienveillant dans l'île saint louis, entre le marais et le quartier latin, depuis bientôt 7 ans après les Antilles et l'Irlande. Le goût des autres & le sens du service depuis toujours. Dans l'immobilier parisien, d'abord agent et à mon compte désormais.</p>
 				<p class="subtitle_prez">À propos de l'entreprise</p>
 				<div class="container_about_enterprise">
-				<div class="bloc_about_enterprise">Transaction vente</div>
-				<div class="bloc_about_enterprise">Transaction location</div>
-				<div class="bloc_about_enterprise">Chasse immobilière location & vente</div>
+					<div class="bloc_about_enterprise">Transaction vente</div>
+					<div class="bloc_about_enterprise">Transaction location</div>
+					<div class="bloc_about_enterprise">Chasse immobilière location & vente</div>
 				</div>
 			</div>
-			<!-- <iframe class="iframe_maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.346073448574!2d2.354488615569481!3d48.85161080913827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671fcbd4e8ee5%3A0x56c004e969467530!2s%C3%8Ele%20Saint-Louis!5e0!3m2!1sfr!2sfr!4v1614762814069!5m2!1sfr!2sfr" width="400" height="300" allowfullscreen="" loading="lazy"></iframe> -->
 		</div>
 	</section>
+
+	<iframe class="iframe_maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.346073448574!2d2.354488615569481!3d48.85161080913827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671fcbd4e8ee5%3A0x56c004e969467530!2s%C3%8Ele%20Saint-Louis!5e0!3m2!1sfr!2sfr!4v1614762814069!5m2!1sfr!2sfr" style="border:none;" width="100%" height="300" allowfullscreen="" loading="lazy"></iframe>
+
 	<footer>
 		<div class="container_footer">
 			<div>
-
+				<img src="img/logo.jpg" alt="">
 			</div>
 			<div>
 				<h2>Contact</h2>
 				<ul>
 					<li style="text-transform: uppercase;">Immotrot</li>
-					<li><i class="fa fa-phone"></i> - 07 63 28 29 84</li>
-					<li><i class="fa fa-envelope"></i> - blabla@gmail.com</li>
-					<li><i class="fa fa-map-marker"></i> - 12 rue des pommiers</li>
+					<li><i class="fa fa-phone"></i> - 06 99 933 233 </li>
+					<li><i class="fa fa-envelope"></i> - contact@murielframery.fr</li>
+					<li><i class="fa fa-map-marker"></i> - 27 RUE ST LOUIS EN L'ILE 75004 PARIS</li>
 				</ul>
 			</div>
 			<div>
-				<h2>Suivez-nous</h2>
+				<h2>Suivez-moi</h2>
 				<ul>
 					<a href="https://www.linkedin.com/in/murielframery2629/" target="_blank">
-						<li style="margin-top:5px"><i class="fa fa-linkedin button_linkedin"></i></li>
+						<li style="margin-top:5px"><a href="https://www.linkedin.com/in/murielframery2629/"><i class="fa fa-linkedin footer-linkedin"></i></a></li>
 					</a>
 				</ul>
 			</div>
@@ -170,6 +195,38 @@
 
 </body>
 
+<script>
+	var slideIndex = 1;
+	showSlides(slideIndex);
+
+	function plusSlides(n) {
+		showSlides(slideIndex += n);
+	}
+
+	function currentSlide(n) {
+		showSlides(slideIndex = n);
+	}
+
+	function showSlides(n) {
+		var i;
+		var slides = document.getElementsByClassName("mySlides");
+		var dots = document.getElementsByClassName("dot");
+		if (n > slides.length) {
+			slideIndex = 1
+		}
+		if (n < 1) {
+			slideIndex = slides.length
+		}
+		for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";
+		}
+		for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" active", "");
+		}
+		slides[slideIndex - 1].style.display = "block";
+		dots[slideIndex - 1].className += " active";
+	}
+</script>
 
 <script type="text/javascript" src="script.js"></script>
 <script type="text/javascript" src="carousel.js"></script>
