@@ -161,11 +161,12 @@ SERVICES
 			<div class="flex_pop">
 				<p>Voici mes offre discrete du moment: </p>
 				<ul>Bien Off:
-					<li>salut</li>
-					<li>salut</li>
-					<li>salut</li>
-					<li>salut</li>
-					<li>salut</li>
+					<?php 
+
+					include 'BDD.php';
+
+					?>
+					
 				</ul>
 				<p><a href="">Cliquez ici pour fermer la fenetre</a></p>
 			</div>

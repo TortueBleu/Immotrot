@@ -1,3 +1,5 @@
+<?php 
+$code = '
 <!DOCTYPE html>
 <html>
 
@@ -14,23 +16,20 @@
 
 
     <div class=" card-body" style="max-width: 30rem ">
-        <form>
+        <form method="post">
             <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Adresse e-mail</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">Veuillez entrer votre adresse mail.</div>
+                <label for="exampleInputEmail1" class="form-label">Pseudo</label>
+                <input type="text" name="pseudo" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Veuillez entrer votre Pseudo.</div>
             </div>
             <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">Mot de passe </label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
+                <input type="password" name="password"class="form-control" id="exampleInputPassword1">
             </div>
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1"> Se souvenir de moi </label>
-            </div>
-            <button type="submit" class="btn btn-primary"> Validez </button>
+            
+            <input type="submit" class="btn btn-primary">
 
-            <button type="submit " class="btn  btn-danger ms-1 "> <a href='index.php'>Annuler</a> </button>
+            <button class="btn  btn-danger ms-1 "> <a href="index.php">Annuler</a> </button>
 
         
         </form>
@@ -39,4 +38,31 @@
 
 </body>
 
-</html>
+</html>';
+if ($_GET['id'] == 245456){
+    echo $code;
+    $bdd = new PDO('mysql:host=localhost;dbname=Immotrott;charset=utf8', 'root', 'root');
+    
+    $pseudo = $_POST['pseudo'];
+    $password = $_POST['password'];
+
+    $requetePseudo = $bdd->query('SELECT pseudo
+                            FROM login');
+    $requeteMdp = $bdd->query('SELECT mdp
+                            FROM login');
+
+    $data = $requetePseudo->fetchAll();
+    $data2 = $requeteMdp->fetchAll();
+
+    if($data[0][0] == $pseudo && $password == $data2[0][0]){
+        header('Location: formulaire.php');
+        exit();
+    }else{
+        echo "Le pseudo ou le mot de passe n'est pas valide ou n'est actuellement vide";
+    }
+
+}else{
+    echo "Cette page est introuvable";
+}
+
+?>
