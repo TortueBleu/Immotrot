@@ -10,7 +10,6 @@ LIER LES CSS
 -->
 <head>
 	<title>Immotrott</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -21,7 +20,6 @@ LIER LES CSS
 
 	<link rel="stylesheet" type="text/css" href="prez.css">
 
-	<link rel="stylesheet" type="text/css" href="responsive.css">
 
 	<link rel="stylesheet" type="text/css" href="axel.css">
 
@@ -132,7 +130,7 @@ SERVICES
 			</div>
 		</div>
 
-		<a class="link_services" target="_blank" href="https://ags-immobilier.com/">
+		<a target="_blank" href="https://ags-immobilier.com/">
 			<div class="lien bloc_card" id="ags">
 				<div class="anim">
 					<p>Cliquer ici</p>
@@ -172,9 +170,6 @@ SERVICES
 
 	</div>
 
-
-	
-
 <!--
 ---------
 
@@ -183,20 +178,25 @@ ANIMATION TROTINETTE
 
 -->
 
-	
+	<div class="anim_trot" id="trotinette">
+
+		<div class="debut">
+			<img src="img/trotinette.png" style="width: 97px;"></img>
+			<div class="txt">
+				Je me deplace a trotinette oui
+			</div>
+
+		</div>
 
 
+	</div>
 
-<div class="flex_trot">
-	<img src="img/trotinette.png" style="width: 200px; height: 200px;"></img>
 	<div class="container_shifting">
 		<img src="img/scooter.gif" alt="" width="30%">
 		<div class="content_shifting">
 			<h2>Mes déplacements sont effectués 100%<br />en trottinette</h2>
 		</div>
 	</div>
-</div>
-	
 
 <!--
 ---------

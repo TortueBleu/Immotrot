@@ -135,8 +135,7 @@ Barre de navigation
 	border-bottom: 0.2px solid rgba(0, 0, 0, .3);
 	;
 	padding: 15px 15px;
-	height: 250px;
-	width: 100%;
+	height : 100px;
 }
 
 /* 
@@ -181,7 +180,7 @@ a {
 
 
 a:hover {
-	color: #4457A3;
+	color: rgb(109, 2, 180);
 }
 
 
@@ -296,17 +295,9 @@ h3 {
 }
 
 
-
-.cont_popup
-{
-	display: flex;
-	width: 100%;
-}
-
 .cont_popup {
 	display        : flex;
 	width          : 100%;
-
 	justify-content: center;
 	align-items    : center;
 	flex-direction : column;
@@ -336,7 +327,16 @@ h3 {
 	border-left  : 10px solid transparent;
 }
 
+.cont_popup {
+	width          : 100%;
+	height         : 1px;
+	display        : flex;
+	justify-content: center;
+	align-items    : center;
 
+
+
+}
 
 
 
@@ -451,31 +451,12 @@ li {
 
 .container_shifting {
 	font-family   : "Nunito-Sans", sans-serif;
-
-	margin-left   : 6.2em;
-	
-	
-
+	margin-left   : 8em;
+	margin-top    : 95px;
 	display       : flex;
 	flex-direction: row;
 	filter        : drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-	max-width: 0%;
-    min-width: 0%;
-    transition: all ease 5s;
-	overflow: hidden;
-	justify-content:  flex-end;
-	max-height: 250px;
-
 }
-
-.flex_trot:hover .container_shifting
-{
-    
-    max-width: 50%;
-    min-width: 80%;
-   
-}
-
 
 .content_shifting {
 	background-image: linear-gradient(163deg, #4457A3 50%, #36488F 50%);
@@ -484,24 +465,18 @@ li {
 	font-size       : 20px;
 	font-weight     : 600;
 	text-align      : center;
+	padding         : 70px 0;
 	line-height     : 1.5;
 	letter-spacing  : 2px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 
 /* Maps */
 
 .iframe_maps {
-	margin-bottom: none;
+	margin-bottom: 95px;
 }
 
 /* slideshow */
-
-figure {
-	margin: 0;
-}
 
 .mySlides {
 	display: none
@@ -515,11 +490,6 @@ img {
 .slideshow-container {
 	position : relative;
 	margin   : auto;
-	height: 500px;
-	overflow: hidden;
-}
-.slideshow-container img {
-	width: 100%;
 }
 
 /* Next & previous buttons */
@@ -605,17 +575,3 @@ img {
 		font-size: 11px
 	}
 }
-
-.flex_trot
-{
-	width: 100%;
-	border-top: solid;
-	border-bottom: solid;
-	margin-top: 100px;
-	
-	display: flex;
-	justify-content: flex-end;
-	align-items: flex-start;
-}
-
-
