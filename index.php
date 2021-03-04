@@ -56,15 +56,15 @@
 	<div class="slideshow-container">
 
 		<div class="mySlides fade">
-			<img src="img/img1.jpg" style="width:100%" height="500px">
+			<figure><img src="img/img1.jpg" style="width:100%" height="500px"></figure>
 		</div>
 
 		<div class="mySlides fade">
-			<img src="img/img2.jpg" style="width:100%" height="500px">
+			<figure><img src="img/img2.jpg" style="width:100%" height="500px"></figure>
 		</div>
 
 		<div class="mySlides fade">
-			<img src="img/img3.jpg" style="width:100%" height="500px">
+			<figure><img src="img/img3.jpg" style="width:100%" height="500px"></figure>
 		</div>
 
 		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
