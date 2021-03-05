@@ -28,7 +28,6 @@
     </div>
 
     <div class=" card-body" style="max-width: 30rem ">
-
         </form>
     </div>
 
