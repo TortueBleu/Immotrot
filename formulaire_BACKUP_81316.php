@@ -12,7 +12,9 @@
 <body>
 
 
-    <div class=" card-body" style="max-width: 30rem "> 
+    <div class=" card-body" style="max-width: 30rem ">
+        <form method="post">
+            <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Bien</label>
                 <input type="texte" class="form-control" name="description">
             </div>
@@ -26,6 +28,7 @@
     </div>
 
     <div class=" card-body" style="max-width: 30rem ">
+<<<<<<< HEAD
 
         <?php 
 
@@ -39,11 +42,13 @@
             $req = $bdd->query("SELECT description FROM VenteADiscretion");
             $data = $req->fetchAll();
             foreach ($data as $row) {
-
 			echo "<p>" . $row['description'] . "</p><button>supp</button>";
 	}
 
   			?>
+=======
+        </form>
+>>>>>>> 7541a25607680847371a2f3eac7f0acfda31bc5b
     </div>
 
 
