@@ -40,6 +40,7 @@ $code = '
 
 </html>';
 if ($_GET['id'] == 245456){
+    session_start();
     echo $code;
     $bdd = new PDO('mysql:host=localhost;dbname=Immotrott;charset=utf8', 'root', 'root');
     
@@ -55,6 +56,7 @@ if ($_GET['id'] == 245456){
     $data2 = $requeteMdp->fetchAll();
 
     if($data[0][0] == $pseudo && $password == $data2[0][0]){
+        $_SESSION['login'] = 'true';
         header('Location: formulaire.php');
         exit();
     }else{
