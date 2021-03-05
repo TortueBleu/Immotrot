@@ -213,7 +213,7 @@ INFOS MURIEL
 
 	<section class="section" id="section_presentation">
 		<div class="container_section">
-			<img class="img_muriel_framery" src="img/photo_mumu.jpg" alt="" width="35%">
+			<img class="img_muriel_framery" src="img/photooo.jpg" alt="" width="35%">
 			<div class="content_contact">
 				<p class="title_prez">Présentation</p>
 				<p class="subtitle_prez">À propos de moi</p>
