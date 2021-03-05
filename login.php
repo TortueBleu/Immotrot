@@ -14,27 +14,28 @@ $code = '
 
 <body>
 
+    <div class="flex">
+        <div class=" card-body" style="max-width: 30rem ">
+            <form method="post">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Nom utilisateur</label>
+                    <input type="text" name="pseudo" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">Veuillez entrer votre nom utilisateur.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Mot de passe </label>
+                    <input type="password" name="password"class="form-control" id="exampleInputPassword1">
+                    <div id="emailHelp" class="form-text">Veuillez entrer votre mot de passe.</div>
+                </div>
+                
+                <input type="submit" class="btn btn-primary">
 
-    <div class=" card-body" style="max-width: 30rem ">
-        <form method="post">
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Pseudo</label>
-                <input type="text" name="pseudo" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">Veuillez entrer votre Pseudo.</div>
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Mot de passe </label>
-                <input type="password" name="password"class="form-control" id="exampleInputPassword1">
-            </div>
+                <button class="btn  btn-danger ms-1 "> <a href="index.php">Annuler</a> </button>
+
             
-            <input type="submit" class="btn btn-primary">
-
-            <button class="btn  btn-danger ms-1 "> <a href="index.php">Annuler</a> </button>
-
-        
-        </form>
+            </form>
+        </div>
     </div>
-
 
 </body>
 
@@ -46,6 +47,7 @@ if ($_GET['id'] == 245456){
     
     $pseudo = $_POST['pseudo'];
     $password = $_POST['password'];
+    $password = hash('sha256', $password);
 
     $requetePseudo = $bdd->query('SELECT pseudo
                             FROM login');
@@ -54,13 +56,13 @@ if ($_GET['id'] == 245456){
 
     $data = $requetePseudo->fetchAll();
     $data2 = $requeteMdp->fetchAll();
-
-    if($data[0][0] == $pseudo && $password == $data2[0][0]){
+    
+    if($data[0]['pseudo'] == $pseudo && $password == hash('sha256',$data2[0]['mdp'])){
         $_SESSION['login'] = 'true';
         header('Location: formulaire.php');
         exit();
     }else{
-        echo "Le pseudo ou le mot de passe n'est pas valide ou n'est actuellement vide";
+        echo "<div class='error'><p>Le nom utilisateur ou le mot de passe n'est pas valide ou est actuellement vide.</p></div>";
     }
 
 }else{

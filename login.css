@@ -1,14 +1,18 @@
 .card-body{
 
-    margin-left: 35%;
-    margin-top: 5%;
+    margin-top: 100px;
     margin-bottom: 3%;
     box-shadow:  7px 7px 7px black;
     background-color: white;
     
    
   }
-  
+  .flex
+  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
   
   body {
       background-color: rgb(228, 227, 227);
@@ -19,3 +23,20 @@
       text-decoration: none;
       color: white;
   }
+
+  .error
+  {
+    color:red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+button
+{
+  margin-top: 10px;
+}
+input
+{
+  margin-top: 10px;
+}
