@@ -151,7 +151,7 @@ SERVICES
 			</a>
 		</div>
 
-		<div class="card" id="bien_off">
+		<div class="card third_card" id="bien_off">
 			<div>
 				<img class="img_card" src="img/carousel/carou_1.png" width="100%" alt="">
 			</div>
@@ -161,39 +161,6 @@ SERVICES
 		</div>
 	</div>
 
-	<!-- 	<div class="cont_lien" id="services">
-		<div class="lien bloc_card" id="service">
-			<div class="anim2">
-				<ul>Services proposés :
-					<li>Vente</li>
-					<li>Location</li>
-					<li>Gestion locataire</li>
-					<li>Rénovation</li>
-				</ul>
-			</div>
-		</div>
-
-		<a class="link_services" target="_blank" href="https://ags-immobilier.com/">
-			<div class="lien bloc_card" id="ags">
-				<div class="anim">
-				<ul>Services proposés :
-					<li>Ile saint Louis Paris IV</li>
-					<li>AGS IMMO – Ternes Champs Elysées<br/>PARIS XVII</li>
-				</ul>
-				</div>
-			</div>
-		</a>
-
-
-		<div class="lien bloc_card" id="bien_off">
-			<div class="anim3">
-				<p>Vente à discrétion</p>
-			</div>
-		</div>
-
-
-	</div> -->
-
 	<div class="cont_popup">
 		<div class="triangle">
 			<div id="triangle-code"></div>
@@ -202,8 +169,8 @@ SERVICES
 
 
 			<div class="flex_pop">
-				<p>Voici mes offre discrete du moment: </p>
-				<ul>Bien Off:
+				<p class="first_para">Voici mes offres discrètes du moment :</p>
+				<ul>
 					<?php
 
 					/* include 'BDD.php'; */
@@ -211,7 +178,7 @@ SERVICES
 					?>
 
 				</ul>
-				<p><a href="">Cliquez ici pour fermer la fenetre</a></p>
+				<p><a href="">Cliquez ici pour fermer la fenêtre</a></p>
 			</div>
 		</div>
 
@@ -246,7 +213,7 @@ INFOS MURIEL
 
 	<section class="section" id="section_presentation">
 		<div class="container_section">
-			<img class="img_muriel_framery" src="img/trop_beau.jpg" alt="" width="30%">
+			<img class="img_muriel_framery" src="img/photo_mumu.jpg" alt="" width="35%">
 			<div class="content_contact">
 				<p class="title_prez">Présentation</p>
 				<p class="subtitle_prez">À propos de moi</p>
