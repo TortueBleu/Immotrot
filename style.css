@@ -96,15 +96,16 @@ Barre de navigation
 }
 
 .title_website {
-	display:flex;
-	align-items:center;
-	font-size:40px;
-	font-family:'Prompt', sans-serif;
-	color:rgba(68, 87, 163, .6);
+	display       : flex;
+	align-items   : center;
+	font-size     : 55px;
+	font-family   : 'Patua One', cursive;
+	color         : #4457A3;
 	text-transform: uppercase;
-	letter-spacing: 3px;
-	margin-bottom: 28px;
+	letter-spacing: 5px;
+	margin-bottom : 28px;
 }
+
 /* 
 -------------------
 Barre de navigation 
@@ -154,6 +155,30 @@ Barre de navigation
 	background-size : 260px;
 	filter          : drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
+}
+
+.anim_card {
+	background-color: #4457A3;
+	opacity         : 0.7;
+	width           : 100%;
+	transition      : all ease 1s;
+	position: absolute;
+	min-height: 0%;
+	max-height: 0%;
+	bottom: 0;
+	overflow        : hidden;
+	font-family     : "Nunito-Sans", sans-serif;
+	color: #fff;
+}
+
+.anim_card ul {
+	margin-right: 5px;
+
+}
+
+.card:hover .anim_card {
+	min-height: 100%;
+	max-height: 100%;
 }
 
 .anim {
@@ -391,8 +416,10 @@ li {
 */
 
 .section {
-	font-family: "Nunito-Sans", sans-serif;
-	margin     : 95px 0;
+	font-family     : "Nunito-Sans", sans-serif;
+	margin          : 95px 0;
+	background-color: #F9F9F9;
+	padding         : 70px 0;
 }
 
 .container_section {
@@ -436,6 +463,15 @@ li {
 	display       : flex;
 	flex-direction: row;
 	margin-right  : 15px;
+	align-items   : center;
+}
+
+.container_about_enterprise img {
+	width: 80%;
+}
+
+.third_img {
+	width: 65% !important;
 }
 
 .bloc_about_enterprise {
@@ -532,6 +568,19 @@ img {
 	user-select  : none;
 }
 
+.text {
+	color      : #4457A3;
+	font-size  : 55px;
+	padding    : 8px 12px;
+	position   : absolute;
+	top        : 50%;
+	left       : 100px;
+	width      : 100%;
+	text-align : start;
+	font-family: 'Patua One', cursive;
+	text-shadow: 1px 1px 2px black;
+}
+
 /* Position the "next button" to the right */
 .next {
 	right        : 0;
@@ -599,7 +648,7 @@ img {
 	}
 }
 
-.flex_trot {
+/* .flex_trot {
 	width        : 100%;
 	border-top   : solid;
 	border-bottom: solid;
@@ -608,4 +657,67 @@ img {
 	display        : flex;
 	justify-content: flex-end;
 	align-items    : flex-start;
+}
+ */
+/* test cards */
+
+.group_cards {
+	display         : flex;
+	flex-direction  : row;
+	justify-content : center;
+	margin-top      : 95px;
+	align-items     : center;
+	background-color: #F9F9F9;
+	padding         : 70px 0;
+}
+
+.card {
+	width         : 12%;
+	box-shadow    : 0px 4px 4px rgba(0, 0, 0, 0.5);
+	display       : flex;
+	flex-direction: column;
+	border        : 2px solid #4457A3;
+	transition    : transform .2s;
+}
+
+.card:hover {
+	-ms-transform    : scale(1.2);
+	/* IE 9 */
+	-webkit-transform: scale(1.2);
+	/* Safari 3-8 */
+	transform        : scale(1.2);
+}
+
+.card:nth-child(2) {
+	margin: 0 200px;
+}
+
+.section_cards {
+	background-color: #4457A3;
+}
+
+.section_cards p {
+	padding: 1em 0;
+	margin: 0;
+}
+
+.section_cards p:nth-child(1) {
+	color         : white;
+	font-size     : 25px;
+	font-family   : "Nunito-Sans", sans-serif;
+	font-weight   : 900;
+	letter-spacing: 2px;
+	text-align    : center;
+}
+
+.img_card {
+	height: 300px;
+}
+
+.card:nth-child(3) {
+	height: 300px;
+}
+
+.card:nth-child(3) img {
+	height: 200px;
 }

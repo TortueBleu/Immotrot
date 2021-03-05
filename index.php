@@ -81,10 +81,12 @@ NAVBAR
 
 		<div class="mySlides fade">
 			<figure><img src="img/carousel/carou_2.png"></figure>
+			<div class="text">Accompagnement,<br /> Bienveillance & Confiance</div>
 		</div>
 
 		<div class="mySlides fade">
 			<figure><img src="img/carousel/carou_3.png"></figure>
+			<div class="text">Indépendance & Transparence</div>
 		</div>
 
 		<div class="mySlides fade">
@@ -114,7 +116,50 @@ SERVICES
 
 -->
 
-	<div class="cont_lien" id="services">
+	<div class="group_cards">
+		<div class="card">
+			<div style="position:relative">
+				<img class="img_card" src="img/illu_1.png" width="100%" alt="">
+				<div class="anim_card">
+					<ul>
+						<li>Vente</li>
+						<li>Location</li>
+						<li>Gestion locataire</li>
+						<li>Rénovation</li>
+					</ul>
+				</div>
+			</div>
+			<div class="section_cards">
+				<p>Services</p>
+			</div>
+		</div>
+
+		<div class="card">
+			<div style="position:relative">
+				<img class="img_card" src="img/illu_2.png" width="100%" alt="">
+				<div class="anim_card">
+					<ul>
+						<li>Ile saint Louis Paris IV</li>
+						<li>AGS IMMO – Ternes Champs Elysées<br />PARIS XVII</li>
+					</ul>
+				</div>
+			</div>
+			<a href="#section_presentation">
+				<div class="section_cards">
+					<p>Agence Immo</p>
+				</div>
+			</a>
+		</div>
+
+		<div class="card" id="bien_off">
+			<img class="img_card" src="img/carousel/carou_1.png" width="100%" alt="">
+			<div class="section_cards">
+				<p>Vente à discrétion</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- 	<div class="cont_lien" id="services">
 		<div class="lien bloc_card" id="service">
 			<div class="anim2">
 				<ul>Services proposés :
@@ -145,7 +190,7 @@ SERVICES
 		</div>
 
 
-	</div>
+	</div> -->
 
 	<div class="cont_popup">
 		<div class="triangle">
@@ -157,12 +202,12 @@ SERVICES
 			<div class="flex_pop">
 				<p>Voici mes offre discrete du moment: </p>
 				<ul>Bien Off:
-					<?php 
+					<?php
 
 					/* include 'BDD.php'; */
 
 					?>
-					
+
 				</ul>
 				<p><a href="">Cliquez ici pour fermer la fenetre</a></p>
 			</div>
@@ -197,7 +242,7 @@ INFOS MURIEL
 
 -->
 
-	<section class="section" id="oui">
+	<section class="section" id="section_presentation">
 		<div class="container_section">
 			<img class="img_muriel_framery" src="img/trop_beau.jpg" alt="" width="30%">
 			<div class="content_contact">
@@ -212,9 +257,9 @@ INFOS MURIEL
 				</div>
 				<p class="subtitle_prez" style="margin-top:30px">Mes partenaires</p>
 				<div class="container_about_enterprise">
-					<img src="img/maestos.png" alt="" width="22%" style="margin-right:30px">
-					<img src="img/ags_immo.png" alt="" width="25%" style="margin-right:25px">
-					<img src="img/logo_nath.jpg" alt="" width="25%" height="95px">
+					<a href="https://www.masteos.com/?gclid=Cj0KCQiAyoeCBhCTARIsAOfpKxgjAErLQZboF4GV5OD0XjxNcj-hKqd9wsCEdmMvEZd1H7WGWrdo6KkaAqaeEALw_wcB"><img src="img/maestos.png" alt="" width="22%" style="margin-right:30px"></a>
+					<a href="https://ags-immobilier.com/"><img src="img/ags_immo.png" alt="" width="25%" style="margin-right:25px"></a>
+					<a href="https://www.nathalieinfante.com/cinq-saisons-a-paris-visite-exposit"><img class="third_img" src="img/logo_nath.jpg" alt="" width="25%" height="95px"></a>
 				</div>
 			</div>
 		</div>
