@@ -226,7 +226,7 @@ TROTINETTE
 
 -->
 
-	<div class="container_shifting">
+	<div class="container_shifting" id="trotinette">
 		<img src="img/scooter.gif" alt="" width="30%">
 		<div class="content_shifting">
 			<h2>Mes déplacements sont effectués 100%<br />en trottinette</h2>

@@ -12,14 +12,14 @@
 <body>
 
 
-    <div class=" card-body" style="max-width: 30rem "> 
-    		<form method="post">
+    <div class=" card-body" style="max-width: 30rem ">
+        <form method="post">
+            <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Bien</label>
                 <input type="texte" class="form-control" name="description">
-                <input type="submit" class="btn btn-primary" value="Ajouter un Bien">
             </div>
  
-            
+            <input type="submit" class="btn btn-primary" value="Ajouter un Bien">
 
             
 
@@ -31,25 +31,17 @@
 
         <?php 
 
-        	session_start();
-        	
-        	if($_SESSION['login'] != 'true'){
-        		header('Location: index.php');
-        	}
             $description = $_POST['description'];
             $bdd = new PDO('mysql:host=localhost;dbname=Immotrott;charset=utf8', 'root', 'root');
             if(isset($description)){
             		$test = "INSERT INTO VenteADiscretion(description) VALUES('".$description."')";
             	 	$requete = $bdd->exec($test);
-            	 	header('Location: formulaire.php');
             	}
   			
-            $req = $bdd->query("SELECT * FROM VenteADiscretion");
+            $req = $bdd->query("SELECT description FROM VenteADiscretion");
             $data = $req->fetchAll();
             foreach ($data as $row) {
-
-			echo "<p>" . $row['description'] . "</p><button> <a href='action.php?id=".$row['id']."'>supp</a></button>";
-
+			echo "<p>" . $row['description'] . "</p><button>supp</button>";
 	}
 
   			?>
