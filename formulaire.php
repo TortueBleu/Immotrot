@@ -13,15 +13,15 @@
 
 
     <div class=" card-body" style="max-width: 30rem ">
-        <form>
+        <form method="post">
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Bien</label>
-                <input type="texte" class="form-control" >
+                <input type="texte" class="form-control" name="description">
             </div>
  
-            <button type="submit" class="btn btn-primary"> Ajouter un bien</button>
+            <input type="submit" class="btn btn-primary" value="Ajouter un Bien">
 
-            <button type="submit " class="btn  btn-danger ms-1 "> <a href='index.php'>Supprimer</a> </button>
+            
 
         
         </form>
@@ -29,7 +29,22 @@
 
     <div class=" card-body" style="max-width: 30rem ">
 
-        </form>
+        <?php 
+
+            $description = $_POST['description'];
+            $bdd = new PDO('mysql:host=localhost;dbname=Immotrott;charset=utf8', 'root', 'root');
+            if(isset($description)){
+            		$test = "INSERT INTO VenteADiscretion(description) VALUES('".$description."')";
+            	 	$requete = $bdd->exec($test);
+            	}
+  			
+            $req = $bdd->query("SELECT description FROM VenteADiscretion");
+            $data = $req->fetchAll();
+            foreach ($data as $row) {
+			echo "<p>" . $row['description'] . "</p><button>supp</button>";
+	}
+
+  			?>
     </div>
 
 
