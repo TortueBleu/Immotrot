@@ -116,7 +116,7 @@ SERVICES
 
 -->
 
-	<div class="group_cards">
+	<div class="group_cards" id="services">
 		<div class="card">
 			<div style="position:relative">
 				<img class="img_card" src="img/illu_1.png" width="100%" alt="">
@@ -152,7 +152,9 @@ SERVICES
 		</div>
 
 		<div class="card" id="bien_off">
-			<img class="img_card" src="img/carousel/carou_1.png" width="100%" alt="">
+			<div>
+				<img class="img_card" src="img/carousel/carou_1.png" width="100%" alt="">
+			</div>
 			<div class="section_cards">
 				<p>Vente à discrétion</p>
 			</div>
