@@ -99,7 +99,24 @@
         height: 200px;
     }
 
+    .container_shifting {
+        flex-direction: column;
+        margin-left: 35px;
+    }
+
     .container_shifting img {
-        width: 100%;
+        width: 90%;
+    }
+
+    .content_shifting {
+        width: 90% !important;
+    }
+
+    .content_shifting h2 {
+        font-size: 20px;
+    }
+
+    #triangle-code {
+        margin-right: 50%;
     }
 }
